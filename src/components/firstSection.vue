@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>firstSection</h1>
+    <h1 class="bg-primary">firstSection</h1>
   </div>
 </template>
 
