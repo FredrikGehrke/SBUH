@@ -21,7 +21,6 @@
             <a class="nav-link text-dark" href="#">Foton</a>
           </li>
         </ul>
-        <button type="button" class="btn theme-bg text-white">Boka</button>
         <a id="mail-icon" href="mailto:fredrikg@nomea.se"><i class="fas fa-envelope fa-2x theme-color px-2"></i></a>
       </div>
 

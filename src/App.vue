@@ -3,6 +3,7 @@
     <navbar />
     <firstSection />
     <secondSection />
+    <myFooter />
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import navbar from './components/navbar'
 import firstSection from './components/firstSection'
 import secondSection from './components/secondSection'
+import myFooter from './components/footer'
 
 export default {
   name: 'App',
   components: {
     navbar,
     firstSection,
-    secondSection
+    secondSection,
+    myFooter
   }
 }
 </script>
