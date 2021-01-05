@@ -3,6 +3,7 @@
     <navbar />
     <firstSection />
     <secondSection />
+    <priceList />
     <myFooter />
   </div>
 </template>
@@ -12,6 +13,8 @@ import navbar from './components/navbar'
 import firstSection from './components/firstSection'
 import secondSection from './components/secondSection'
 import myFooter from './components/footer'
+import priceList from './components/pricelist'
+
 
 export default {
   name: 'App',
@@ -19,7 +22,9 @@ export default {
     navbar,
     firstSection,
     secondSection,
-    myFooter
+    myFooter,
+    priceList
+    
   }
 }
 </script>
