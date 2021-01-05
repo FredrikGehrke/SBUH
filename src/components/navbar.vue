@@ -21,7 +21,7 @@
             <a class="nav-link text-dark" href="#">Foton</a>
           </li>
         </ul>
-        <a type="button" href="leif@sbuh.se" class="btn theme-bg btn-circle"><i class="fas fa-envelope fa-2x text-white mail-icon"></i></a> 
+        <a href="mailto:leif@sbuh.se" class="btn theme-bg btn-circle btn-md"><i class="fas fa-envelope fa-2x text-white mail-icon"></i></a> 
       </div>
 
     </div>
@@ -37,19 +37,17 @@ export default {
 
 <style scoped>
 
-
 .mail-icon {
   margin-left: 1px;
 }
 
-.btn-circle { 
+.btn-circle.btn-md { 
     width: 50px; 
     height: 50px; 
     padding: 14px 10px; 
     border-radius: 25px; 
     font-size: 10px; 
     text-align: center; 
-    margin: 0;
 } 
 
 .navbar-brand {

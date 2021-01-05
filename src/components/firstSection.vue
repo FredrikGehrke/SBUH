@@ -6,17 +6,15 @@
                     <div class="card">
                         <div class="text-white text-center align-items-center py-5 px-4 px-md-5 my-margin-top">
                             <div>
-                                <h1 class="py-1 font-weight-bold animated fadeIn" data-animation-delay="800ms">
+                                <h1 class="py-1 font-weight-bold animated fadeIn" style="animation-delay: 700ms;">
                                     <strong class="SBUH">Sollentuna Bygguthyrning</strong>
                                 </h1>
-                                <p id="slogan" class="pb-2 animated fadeIn">
+                                <p id="slogan" class="pb-2 animated fadeIn" style="animation-delay: 800ms;">
                                   Vi erbjuder smidiga grävare där du inte behöver oroa dig för att tomten ska bli förstörd. 
                                   <br> Finns även möjlighet till att hyra förare!
-                                  <!-- Behöver du hyra en liten smidig grävare för grävjobb där du inte vill att hela tomten skall bli förstörd? <br>
-                                  Kör du själv eller vill du  hyra med förare? Hör av dig till oss så löser vi det! -->
                                 </p>
-                                <a href="#Boka" class="btn animated fadeIn" style="animation-delay: 900ms;">BOKA <i class="fas fa-pen ml-1"></i></a>
-                                <a href="#Kontakt" class="btn animated fadeIn" style="animation-delay: 900ms;">Kontakt <i class="fas fa-envelope ml-1"></i></a>
+                                <a href="#Boka" class="btn animated fadeInUp" style="animation-delay: 900ms;">BOKA <i class="fas fa-pen ml-1"></i></a>
+                                <a href="#Kontakt" class="btn animated fadeInUp" style="animation-delay: 900ms;">Kontakt <i class="fas fa-envelope ml-1"></i></a>
                             </div>
                         </div>
                     </div>
@@ -42,7 +40,6 @@
 }
 
 .btn:hover {
-  /* background: linear-gradient(to right, rgb(243, 141, 7), rgb(247, 91, 1)); */
   box-shadow: 0px 0px 20px 2px rgb(243, 141, 7);  
   color: white;
 }
@@ -68,6 +65,5 @@
   background-image: url(../assets/excavator.jpg);
   background-size: cover;
 }
-
 
 </style>
