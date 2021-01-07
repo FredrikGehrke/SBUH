@@ -15,7 +15,7 @@
                                   <br> Finns även möjlighet till att hyra förare!
                                 </p>
                                 <a href="#Boka" class="btn animated fadeInUp" style="animation-delay: 900ms;">BOKA <i class="fas fa-pen ml-1"></i></a>
-                                <a href="#Kontakt" class="btn animated fadeInUp" style="animation-delay: 900ms;">Kontakt <i class="fas fa-envelope ml-1"></i></a>
+                                <a href="#Kontakt" class="btn animated fadeInUp" style="animation-delay: 900ms;">KONTAKT <i class="fas fa-envelope ml-1"></i></a>
                             </div>
                         </div>
                     </div>
@@ -39,6 +39,9 @@
   font-weight: bold;
   font-size: 16px;
   letter-spacing: 1.5px;
+  margin: 10px;
+  color: white;
+  padding: 10px 30px
 }
 
 .btn:hover {
