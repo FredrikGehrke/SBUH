@@ -13,8 +13,8 @@
                 <div class="col-md-6 mt-md-0 mt-3">
 
                     <!-- Content -->
-                    <h5 class="SBUH">Sollentuna Bygguthyrning</h5>
-                    <p>Har flera telefonnummer, ring, dra iväg ett mail eller skriv till mig på messenger!</p>
+                    <h5 class="SBUH text-white">Sollentuna Bygguthyrning</h5>
+                    <p class="text-white">Har flera telefonnummer, ring, dra iväg ett mail eller skriv till mig på messenger!</p>
 
                 </div>
                 <!-- Grid column -->
@@ -60,7 +60,7 @@
                             <a href="#!">Link 3</a>
                         </li>
                     </ul>
-                     <i v-on:click="scrollToTop()" class="fas fa-arrow-up totop fa-2x theme-color"></i>
+                     <i v-on:click="scrollToTop()" class="fas fa-arrow-up totop fa-2x theme-color d-none d-lg-block "></i>
 
                 </div>
                 <!-- Grid column -->
@@ -72,7 +72,7 @@
             <!-- Footer Links -->
 
             <!-- Copyright -->
-            <div class="page-footer font-small black footer-color">
+            <div class="page-footer font-small black footer-color text-white">
                 <div class="footer-copyright text-center py-3 footer-style">
                 Copyright {{ new Date().getFullYear() }} &copy;  Sollentuna Bygguthyrning
                 </div>
@@ -96,6 +96,10 @@ export default {
 </script>
 
 <style scoped>
+    a {
+        text-decoration: none;
+        color: white;
+    }
     .totop{
         position: absolute;
         left: 540px;
