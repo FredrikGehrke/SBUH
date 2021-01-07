@@ -29,6 +29,75 @@
         </div>
       </div>
   </div>
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h2 class="display-4">Prislista</h2>
+      <p class="lead">Alla priser nedan är exclusive moms.</p>
+
+
+      <div class="d-flex flex-row justify-content-between">
+        <div class="p-2">
+          <table>
+            <thead>
+              <tr>
+                <th class="title">Tid</th>
+                <th class="title">Pris</th>
+              </tr>
+            </thead>
+              <tbody>
+                <tr>
+                  <td>1 Dygn</td>
+                  <td>1000 kr</td>
+                </tr>
+                <tr>
+                  <td>Fredag eftermiddag - Söndag kväll</td>
+                  <td>2000 kr</td>
+                </tr>
+                <tr>
+                  <td>1 Vecka (Hyr 7 dygn till priset av 6 dygn)</td>
+                  <td>6000 kr</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+          </table>
+        </div>
+        
+        <!-- LEVERANS -->
+        <div class="p-2">
+          <table>
+            <thead>
+              <tr>
+                <th class="title">Leverans eller Hämtning</th>
+                <th class="title">Pris</th>
+              </tr>
+            </thead>
+              <tbody>
+                <tr>
+                  <td>Norrort</td>
+                  <td>600 kr</td>
+                </tr>
+                <tr>
+                  <td>Söderort</td>
+                  <td>900 kr</td>
+                </tr>
+                <tr>
+                  <td>1 Vecka (Hyr 7 dygn till priset av 6 dygn)</td>
+                  <td>6000 kr</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 </template>
 
@@ -54,6 +123,31 @@ export default {
 
 h1{
   font-weight: bold;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+table {
+  width:100%;
+}
+
+tr {
+  border-top:1px solid var(--theme-color);
+}
+
+thead tr {
+  border-width:2px;
+}
+
+th {
+  text-align:left;
+}
+
+th,td {
+  padding:1em;
 }
 
 </style>
