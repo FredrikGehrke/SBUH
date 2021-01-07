@@ -1,7 +1,6 @@
 <template>
     <div>
-        <div class="main-footer">
-            <!-- Footer -->
+        <div class="main-footer" id="kontakt">
             <footer class="page-footer font-small footer-bg pt-4">
 
             <!-- Footer Links -->
@@ -66,6 +65,7 @@
                         <a href="#!">Link 4</a>
                     </li>
                     </ul>
+                     <i v-on:click="scrollToTop()" class="fas fa-arrow-up totop fa-2x theme-color"></i>
 
                 </div>
                 <!-- Grid column -->
@@ -90,7 +90,22 @@
     </div>
 </template>
 
+<script>
+export default {
+    methods: {
+        scrollToTop() {
+      window.scrollTo(0, 0);
+    },
+    }
+}
+</script>
+
 <style scoped>
+    .totop{
+        position: absolute;
+        left: 540px;
+        top: -5px;
+    }
 
     .heading {
         font-weight: 800;

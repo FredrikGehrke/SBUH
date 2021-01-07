@@ -4,7 +4,9 @@
     <firstSection />
     <secondSection />
     <priceList />
+    <kunder />
     <myFooter />
+  
   </div>
 </template>
 
@@ -14,6 +16,7 @@ import firstSection from './components/firstSection'
 import secondSection from './components/secondSection'
 import myFooter from './components/footer'
 import priceList from './components/pricelist'
+import kunder from './components/kunder'
 
 
 export default {
@@ -23,7 +26,8 @@ export default {
     firstSection,
     secondSection,
     myFooter,
-    priceList
+    priceList,
+    kunder
     
   }
 }
@@ -37,6 +41,9 @@ export default {
   box-sizing: 0;
   letter-spacing: 1.5px;
   font-family: 'Open Sans', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
 }
 
 :root {

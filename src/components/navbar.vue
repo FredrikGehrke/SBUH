@@ -12,10 +12,10 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Boka</a>
+            <a class="nav-link text-dark" href="#boka">Boka</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Kontakt</a>
+            <a class="nav-link text-dark" href="#kontakt">Kontakt</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-dark" href="#">Foton</a>

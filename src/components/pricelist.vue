@@ -1,5 +1,5 @@
 <template>
-<div class="bg-color pb-5 pt-3">
+<div class="bg-color pb-5 pt-3" id="boka">
   <div class="container mt-5">
       <h1 class="theme-color text-center mb-5">Maskiner</h1>
       <div class="card-deck mb-5">
