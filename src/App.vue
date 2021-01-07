@@ -4,6 +4,7 @@
     <firstSection />
     <secondSection />
     <priceList />
+    <imageGallery />
     <kunder />
     <myFooter />
   
@@ -17,6 +18,7 @@ import secondSection from './components/secondSection'
 import myFooter from './components/footer'
 import priceList from './components/pricelist'
 import kunder from './components/kunder'
+import imageGallery from './components/imageGallery'
 
 
 export default {
@@ -27,7 +29,8 @@ export default {
     secondSection,
     myFooter,
     priceList,
-    kunder
+    kunder,
+    imageGallery
     
   }
 }
