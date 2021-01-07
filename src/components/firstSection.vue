@@ -1,5 +1,6 @@
 <template>
     <div class="bg-img">
+    <div class="elfsight-app-41bebe9f-6f29-426c-98b0-7658c5d97fb9"></div>
         <div class="my-overlay">
             <section class="text-center">
                 <div class="col-md-12 p-0">
@@ -23,6 +24,7 @@
         </div>
     </div>
 </template>
+
 
 <style scoped>
 
