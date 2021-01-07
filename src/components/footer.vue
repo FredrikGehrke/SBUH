@@ -14,7 +14,7 @@
 
                     <!-- Content -->
                     <h5 class="SBUH">Sollentuna Bygguthyrning</h5>
-                    <p>Here you can use rows and columns to organize your footer content.</p>
+                    <p>Har flera telefonnummer, ring, dra iväg ett mail eller skriv till mig på messenger!</p>
 
                 </div>
                 <!-- Grid column -->
@@ -25,21 +25,19 @@
                 <div class="col-md-3 mb-md-0 mb-3">
 
                     <!-- Links -->
-                    <h5 class="heading theme-color">Links</h5>
+
+                    <h5 class="heading theme-color">Telefonnummer</h5>
 
                     <ul class="list-unstyled">
-                    <li>
-                        <a href="mailto:leif@sbuh.se">leif@sbuh.se</a>
-                    </li>
-                    <li>
-                        <a href="#!">Link 2</a>
-                    </li>
-                    <li>
-                        <a href="#!">Link 3</a>
-                    </li>
-                    <li>
-                        <a href="#!">Link 4</a>
-                    </li>
+                        <li>
+                            <a href="#!">070-2200491</a>
+                        </li>
+                        <li>
+                            <a href="#!">073-5745403</a>
+                        </li>
+                        <li>
+                            <a href="#!">0762-577951</a>
+                        </li>
                     </ul>
 
                 </div>
@@ -49,21 +47,18 @@
                 <div class="col-md-3 mb-md-0 mb-3">
 
                     <!-- Links -->
-                    <h5 class="heading theme-color">Telefonnummer</h5>
+                    <h5 class="heading theme-color">Email</h5>
 
                     <ul class="list-unstyled">
-                    <li>
-                        <a href="#!">070-2200491</a>
-                    </li>
-                    <li>
-                        <a href="#!">073-5745403</a>
-                    </li>
-                    <li>
-                        <a href="#!">0762-577951</a>
-                    </li>
-                    <li>
-                        <a href="#!">Link 4</a>
-                    </li>
+                        <li>
+                            <a href="mailto:leif@sbuh.se">leif@sbuh.se</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 3</a>
+                        </li>
                     </ul>
                      <i v-on:click="scrollToTop()" class="fas fa-arrow-up totop fa-2x theme-color"></i>
 
