@@ -6,6 +6,7 @@
     <priceList />
     <imageGallery />
     <kunder />
+    <contactform />
     <myFooter />
   
   </div>
@@ -19,6 +20,7 @@ import myFooter from './components/footer'
 import priceList from './components/pricelist'
 import kunder from './components/kunder'
 import imageGallery from './components/imageGallery'
+import Contactform from './components/contactform.vue'
 
 
 export default {
@@ -30,7 +32,8 @@ export default {
     myFooter,
     priceList,
     kunder,
-    imageGallery
+    imageGallery,
+    Contactform
     
   }
 }
