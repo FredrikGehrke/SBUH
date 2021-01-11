@@ -1,7 +1,7 @@
 <template>
-<div class="bg-color pb-5 pt-3" id="boka">
+<div class="bg-color pb-5 pt-3" id="maskiner&prislista">
   <div class="container mt-5">
-      <h1 class="theme-color text-center mb-5">Maskiner</h1>
+      <h1 class="text-center mb-5 title-color">Maskiner</h1>
       <div class="card-deck mb-5">
         <div class="card">
           <img class="card-img-top imgprice" src="../assets/gulful.jpg" alt="Card image cap">
@@ -35,16 +35,15 @@
       <h2 class="display-4">Prislista</h2>
       <p class="lead">Alla priser nedan är exclusive moms.</p>
 
-
-      <div class="d-flex flex-row justify-content-between">
-        <div class="p-2">
+      <div class="row">
+        <div class="p-2 col-12 col-md-6">
           <table>
-            <thead>
-              <tr>
-                <th class="title">Tid</th>
+            <!-- <thead>
+              <tr> -->
+                <th class="title"><i class="fas fa-clock theme-color"></i> Tid</th>
                 <th class="title">Pris</th>
-              </tr>
-            </thead>
+              <!-- </tr>
+            </thead> -->
               <tbody>
                 <tr>
                   <td>1 Dygn</td>
@@ -67,14 +66,14 @@
         </div>
         
         <!-- LEVERANS -->
-        <div class="p-2">
+        <div class="p-2 col-12 col-md-6">
           <table>
-            <thead>
-              <tr>
-                <th class="title">Leverans eller Hämtning</th>
+            <!-- <thead>
+              <tr> -->
+                <th class="title"><i class="fas fa-truck theme-color"></i> Leverans eller Hämtning</th>
                 <th class="title">Pris</th>
-              </tr>
-            </thead>
+              <!-- </tr>
+            </thead> -->
               <tbody>
                 <tr>
                   <td>Norrort</td>
@@ -85,8 +84,8 @@
                   <td>900 kr</td>
                 </tr>
                 <tr>
-                  <td>1 Vecka (Hyr 7 dygn till priset av 6 dygn)</td>
-                  <td>6000 kr</td>
+                  <td> </td>
+                  <td class="text-white">6000 kr</td>
                 </tr>
                 <tr>
                   <td></td>
@@ -108,9 +107,6 @@ export default {
 </script>
 
 <style scoped>
-.bg-color {
-  background-color: rgba(180, 180, 180, 0.144) !important;
-}
 
 .imgprice {
   height: 250px;
@@ -119,6 +115,7 @@ export default {
 .btn {
   background: linear-gradient(to right, rgb(243, 141, 7), rgb(247, 91, 1));
   border-radius: 6px;
+  font-weight: 600;
 }
 
 h1{
@@ -135,7 +132,7 @@ table {
 }
 
 tr {
-  border-top:1px solid var(--theme-color);
+  border-top:1px solid black
 }
 
 thead tr {

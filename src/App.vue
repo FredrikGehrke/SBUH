@@ -1,10 +1,10 @@
 <template>
   <div>
     <navbar />
-    <firstSection />
-    <secondSection />
-    <priceList />
-    <imageGallery />
+    <landingHeader />
+    <foretaget />
+    <prisLista />
+    <foton />
     <kunder />
     <myFooter />
   
@@ -13,24 +13,24 @@
 
 <script>
 import navbar from './components/navbar'
-import firstSection from './components/firstSection'
-import secondSection from './components/secondSection'
+import landingHeader from './components/landingHeader'
+import foretaget from './components/foretaget'
 import myFooter from './components/footer'
-import priceList from './components/pricelist'
+import prisLista from './components/prisLista'
 import kunder from './components/kunder'
-import imageGallery from './components/imageGallery'
+import foton from './components/foton'
 
 
 export default {
   name: 'App',
   components: {
     navbar,
-    firstSection,
-    secondSection,
+    landingHeader,
+    foretaget,
     myFooter,
-    priceList,
+    prisLista,
     kunder,
-    imageGallery
+    foton
     
   }
 }
@@ -45,7 +45,8 @@ export default {
   letter-spacing: 1.5px;
   font-family: 'Open Sans', sans-serif;
 }
-html{
+
+html {
   scroll-behavior: smooth;
 }
 
@@ -59,6 +60,19 @@ html{
 
 .theme-color {
   color: var(--theme-color)
+}
+
+.bg-color {
+  background-color: rgba(230, 228, 228, 0.192) !important;
+}
+
+.SBUH {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+}
+
+.title-color {
+  color: rgb(32, 32, 32);
 }
 
 </style>

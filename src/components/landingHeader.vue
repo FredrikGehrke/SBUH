@@ -15,7 +15,7 @@
                                   <br> Finns även möjlighet till att hyra förare!
                                 </p>
                                 <a href="#Boka" class="btn animated fadeInUp" style="animation-delay: 900ms;">BOKA <i class="fas fa-pen ml-1"></i></a>
-                                <a href="#Kontakt" class="btn animated fadeInUp" style="animation-delay: 900ms;">KONTAKT <i class="fas fa-envelope ml-1"></i></a>
+                                <a href="#Kontakt" class="btn animated fadeInUp" style="animation-delay: 900ms;">Priser <i class="fas fa-tag ml-1"></i></a>
                             </div>
                         </div>
                     </div>
@@ -27,11 +27,6 @@
 
 
 <style scoped>
-
-.SBUH {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 700;
-}
 
 .btn {
   background: linear-gradient(to right, rgb(243, 141, 7), rgb(247, 91, 1));
