@@ -6,6 +6,7 @@
     <prisLista />
     <foton />
     <kunder />
+    <contactform />
     <myFooter />
   
   </div>
@@ -19,7 +20,7 @@ import myFooter from './components/footer'
 import prisLista from './components/prisLista'
 import kunder from './components/kunder'
 import foton from './components/foton'
-
+import Contactform from './components/contactform.vue'
 
 export default {
   name: 'App',
@@ -30,8 +31,8 @@ export default {
     myFooter,
     prisLista,
     kunder,
-    foton
-    
+    foton,
+    Contactform
   }
 }
 </script>
