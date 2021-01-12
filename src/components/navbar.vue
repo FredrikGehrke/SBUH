@@ -14,11 +14,14 @@
           <li class="nav-item">
             <a class="nav-link text-dark" href="#boka">Boka</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link text-dark" href="#kontakt">Kontakt</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#foton">Foton</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Foton</a>
+            <a class="nav-link text-dark" href="#maskiner&prislista">Maskiner & Prislista</a>
           </li>
         </ul>
         <a href="mailto:leif@sbuh.se" class="btn theme-bg btn-circle btn-md"><i class="fas fa-envelope fa-2x text-white mail-icon"></i></a> 
@@ -61,6 +64,10 @@ export default {
   font-size: 18px;
 } .nav-link:hover {
   color: var(--theme-color) !important;
+}
+
+.nav-item {
+  margin-right: 10px;
 }
 
 .btn {
