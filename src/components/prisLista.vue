@@ -1,71 +1,77 @@
 <template>
-<div class="bg-color1 pb-5 pt-3" id="maskiner&prislista">
-  <div class="bg-color mb-5">
-    <div class="pt-5 pb-2">
+<div class="lighter-bg pb-5 pt-3" id="maskiner&prislista">
+  <div class="dark-bg mb-5">
+    <div class="pt-5 pb-3">
         <h1 class="text-center text-white">Maskiner</h1>
     </div>
     <div class="container">
-      <div class="row mt-5 py-4 pt-4">
+      <div class="row mt-5 pt-4">
         <!-- CARD START -->
-        <div class="col-md-4 pb-3 text-white">
+        <div class="col-md-4 pb-3">
           <div class="card mb-5">
             <div class="card-body card-body-cascade text-left bg-cards">
-            <div class="view view-cascade overlay z-depth-2">
-              <img class="card-img-top image-size" src="../assets/gulful.jpg" alt="Machine">
-            </div>
-              <h3 class="mb-3 font-weight-bold mt-3 theme-color">YC18-2</h3>             
-              <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quae quibusdam culpa, omnis labore ipsum incidunt eveniet temporibus repellat atque!
-                <br> <br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, nobis?
-                <br>
-              </p>
-              <a href="#Boka" class="btn btn-md">TILL BOKNINGEN
+              <div class="view view-cascade overlay z-depth-2">
+                <img class="card-img-top image-size" src="../assets/gulful.jpg" alt="Machine">
+              </div>
+              <div class="text-body">
+                <h3 class="mb-3 font-weight-bold mt-3 theme-color">YC18-2</h3>             
+                <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quae quibusdam culpa, omnis labore ipsum incidunt eveniet temporibus repellat atque!
+                  <br> <br>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, nobis?
+                  <br>
+                </p>
+              </div>
+              <a href="#Boka" class="text-white bokaBtn btn-block">TILL BOKNINGEN
                 <i class="fas fa-arrow-down ml-1"></i>
               </a>
             </div>
           </div>
         </div>
+        <!-- CARD END -->
         <!-- CARD START -->
-        <!-- CARD START -->
-        <div class="col-md-4 pb-3 text-white">
+        <div class="col-md-4 pb-3">
           <div class="card mb-5">
             <div class="card-body card-body-cascade text-left bg-cards">
-            <div class="view view-cascade overlay z-depth-2">
-              <img class="card-img-top image-size" src="../assets/gulful.jpg" alt="Machine">
-            </div>
-              <h3 class="mb-3 font-weight-bold mt-3 theme-color">YC18-2</h3>             
-              <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quae quibusdam culpa, omnis labore ipsum incidunt eveniet temporibus repellat atque!
-                <br> <br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, nobis?
-                <br>
-              </p>
-              <a href="#Boka" class="btn btn-md">TILL BOKNINGEN
+              <div class="view view-cascade overlay z-depth-2">
+                <img class="card-img-top image-size" src="../assets/gulful.jpg" alt="Machine">
+              </div>
+              <div class="text-body">
+                <h3 class="mb-3 font-weight-bold mt-3 theme-color">Abelco XC15</h3>             
+                <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quae quibusdam culpa, omnis labore ipsum incidunt eveniet temporibus repellat atque!
+                  <br> <br>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, nobis?
+                  <br>
+                </p>
+              </div>
+              <a href="#Boka" class="text-white bokaBtn btn-block">TILL BOKNINGEN
                 <i class="fas fa-arrow-down ml-1"></i>
               </a>
             </div>
           </div>
         </div>
+        <!-- CARD END -->
         <!-- CARD START -->
-        <!-- CARD START -->
-        <div class="col-md-4  pb-3 text-white">
+        <div class="col-md-4 pb-3">
           <div class="card mb-5">
             <div class="card-body card-body-cascade text-left bg-cards">
-            <div class="view view-cascade overlay z-depth-2">
-              <img class="card-img-top image-size" src="../assets/gulful.jpg" alt="Machine">
-            </div>
-              <h3 class="mb-3 font-weight-bold mt-3 theme-color">YC18-2</h3>             
-              <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quae quibusdam culpa, omnis labore ipsum incidunt eveniet temporibus repellat atque!
-                <br> <br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, nobis?
-                <br>
-              </p>
-              <a href="#Boka" class="btn btn-md">TILL BOKNINGEN
+              <div class="view view-cascade overlay z-depth-2">
+                <img class="card-img-top image-size" src="../assets/gulful.jpg" alt="Machine">
+              </div>
+              <div class="text-body">
+                <h3 class="mb-3 font-weight-bold mt-3 theme-color">TB016</h3>             
+                <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quae quibusdam culpa, omnis labore ipsum incidunt eveniet temporibus repellat atque!
+                  <br> <br>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, nobis?
+                  <br>
+                </p>
+              </div>
+              <a href="#Boka" class="text-white bokaBtn btn-block">TILL BOKNINGEN
                 <i class="fas fa-arrow-down ml-1"></i>
               </a>
             </div>
           </div>
         </div>
-        <!-- CARD START -->
+        <!-- CARD END -->
       </div>
     </div>
   </div>
@@ -120,7 +126,7 @@
                 </tr>
                 <tr>
                   <td> </td>
-                  <td class="text-white">6000 kr</td>
+                  <td class="">6000 kr</td>
                 </tr>
                 <tr>
                   <td></td>
@@ -143,14 +149,27 @@ export default {
 
 <style scoped>
 
-.btn {
+.bokaBtn {
+  background: linear-gradient(to bottom, rgb(243, 141, 7), rgb(247, 91, 1));
+  padding: 15px;
+  font-weight: 600;
+  font-size: 14px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  text-align: center;
+} .bokaBtn:hover {
+  box-shadow: 0px 0px 20px 2px rgb(243, 141, 7);  
+  color: white;
+}
+
+/* .btn {
   background: linear-gradient(to right, rgb(243, 141, 7), rgb(247, 91, 1));
   font-weight: 600;
   border-radius: 10px;
   font-size: 14px;
   letter-spacing: 1.5px;
   margin: 0;
-}
+} */
 
 h1 {
   font-weight: bold;
@@ -190,6 +209,7 @@ th,td {
 
 .image-size {
   height: 250px;
+  /* border-bottom: 4px solid var(--theme-color); */
 }
 
 .card {
@@ -204,25 +224,26 @@ th,td {
 .card-body {
   border-radius: 6px;
   min-height: 525px;
-    
+  padding: 0;
+}
+
+.text-body {
+  padding: 0px 20px 20px 20px;
 }
 
 .view {
   margin-top: -4rem;
-  border-radius: 5px;  
+
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
 .bg-cards {
-  background: linear-gradient(to bottom, rgb(32, 32, 32), rgb(19, 19, 19));
+  /* background: linear-gradient(to top, rgb(32, 32, 32), rgb(19, 19, 19)); */
+  /* background: linear-gradient(to top, rgb(32, 32, 32), rgb(27, 27, 27)); */
+    background: linear-gradient(to top, rgb(32, 32, 32), rgb(27, 27, 27));
   box-shadow: 0px 5px 20px 10px rgba(0, 0, 0, 0.219);  
 }
 
-.bg-color {
-  background-color: rgba(0, 0, 0, 0.836);
-  box-shadow: 0px 5px 20px 10px rgba(0, 0, 0, 0.219); 
-}
-.bg-color1 {
-  background-color: rgba(230, 228, 228, 0.192);
-}
 
 </style>

@@ -75,7 +75,7 @@ export default {};
 
 <style scoped>
 hr {
-  background: #f38d07 !important;
+  background: var(--theme-color);
   width: 5%;
   margin: auto;
   padding: 1px;

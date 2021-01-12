@@ -93,4 +93,8 @@ h1{
   box-shadow: 0px 5px 20px 10px rgba(0, 0, 0, 0.219);  
 }
 
+.lighter-bg {
+  background-color: rgba(230, 228, 228, 0.192);
+}
+
 </style>

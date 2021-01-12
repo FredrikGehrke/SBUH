@@ -30,19 +30,19 @@
                                     <a href="mailto:leif@sbuh.se">leif@sbuh.se</a>
                                 </li>
                                 <li>
-                                    <a href="#!">Link 2</a>
+                                    <!-- <a href="#!">Link 2</a> -->
                                 </li>
                                 <li>
-                                    <a href="#!">Link 3</a>
+                                    <!-- <a href="#!">Link 3</a> -->
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-md-1 mb-md-0 mb-3">
+                        <div class="col-md-1 mb-md-0 mb-3 d-none d-lg-block">
                             <button id="topBtn"><i v-on:click="scrollToTop()" class="fas fa-arrow-up totop fa-2x d-none d-lg-block"></i></button>
                         </div>
                     </div>
                 </div>
-                <div class="page-footer font-small black footer-color text-white">
+                <div class="page-footer font-small black footer-color">
                     <div class="footer-copyright text-center py-3 footer-style">
                     Copyright {{ new Date().getFullYear() }} &copy;  Sollentuna Bygguthyrning
                     </div>
@@ -64,6 +64,7 @@ export default {
 </script>
 
 <style scoped>
+
     #topBtn {
         background: none;
         color: inherit;
@@ -73,7 +74,7 @@ export default {
         cursor: pointer;
         outline: inherit;
 
-                background-color: var(--theme-color);
+        background-color: var(--theme-color);
         padding: 6px;
         border-radius: 5px;
         cursor: pointer;
