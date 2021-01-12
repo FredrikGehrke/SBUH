@@ -1,77 +1,82 @@
 <template>
-<div class="bg-color pb-5 pt-3" id="maskiner&prislista">
-  <div class="mt-4">
-      <h1 class="text-center title-color">Maskiner</h1>
-  </div>
-  <div class="container">
-    <div class="row mt-5 py-4 pt-4">
-      <!-- CARD START -->
-      <div class="col-md-4 pb-3 text-white">
-        <div class="card mb-5">
-          <div class="card-body card-body-cascade text-left bg-cards">
-          <div class="view view-cascade overlay z-depth-2">
-            <img class="card-img-top image-size" src="../assets/gulful.jpg" alt="Machine">
-          </div>
-            <h3 class="mb-3 font-weight-bold mt-3 theme-color">YC18-2</h3>             
-            <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quae quibusdam culpa, omnis labore ipsum incidunt eveniet temporibus repellat atque!
-              <br> <br>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, nobis?
-              <br>
-            </p>
-            <a target="_blank" href="#boka" class="btn btn-md">TILL BOKNINGEN
-              <i class="fas fa-arrow-down ml-1"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-      <!-- CARD START -->
-      <!-- CARD START -->
-      <div class="col-md-4 pb-3 text-white">
-        <div class="card mb-5">
-          <div class="card-body card-body-cascade text-left bg-cards">
-          <div class="view view-cascade overlay z-depth-2">
-            <img class="card-img-top image-size" src="../assets/gulful.jpg" alt="Machine">
-          </div>
-            <h3 class="mb-3 font-weight-bold mt-3 theme-color">YC18-2</h3>             
-            <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quae quibusdam culpa, omnis labore ipsum incidunt eveniet temporibus repellat atque!
-              <br> <br>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, nobis?
-              <br>
-            </p>
-            <a target="_blank" href="#boka" class="btn btn-md">TILL BOKNINGEN
-              <i class="fas fa-arrow-down ml-1"></i>
-            </a>
+<div class="bg-color1 pb-5 pt-3" id="maskiner&prislista">
+  <div class="bg-color mb-5">
+    <div class="pt-5 pb-2">
+        <h1 class="text-center text-white">Maskiner</h1>
+    </div>
+    <div class="container">
+      <div class="row mt-5 py-4 pt-4">
+        <!-- CARD START -->
+        <div class="col-md-4 pb-3 text-white">
+          <div class="card mb-5">
+            <div class="card-body card-body-cascade text-left bg-cards">
+            <div class="view view-cascade overlay z-depth-2">
+              <img class="card-img-top image-size" src="../assets/gulful.jpg" alt="Machine">
+            </div>
+              <h3 class="mb-3 font-weight-bold mt-3 theme-color">YC18-2</h3>             
+              <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quae quibusdam culpa, omnis labore ipsum incidunt eveniet temporibus repellat atque!
+                <br> <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, nobis?
+                <br>
+              </p>
+              <a href="#Boka" class="btn btn-md">TILL BOKNINGEN
+                <i class="fas fa-arrow-down ml-1"></i>
+              </a>
+            </div>
           </div>
         </div>
-      </div>
-      <!-- CARD START -->
-      <!-- CARD START -->
-      <div class="col-md-4  pb-3 text-white">
-        <div class="card mb-5">
-          <div class="card-body card-body-cascade text-left bg-cards">
-          <div class="view view-cascade overlay z-depth-2">
-            <img class="card-img-top image-size" src="../assets/gulful.jpg" alt="Machine">
-          </div>
-            <h3 class="mb-3 font-weight-bold mt-3 theme-color">YC18-2</h3>             
-            <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quae quibusdam culpa, omnis labore ipsum incidunt eveniet temporibus repellat atque!
-              <br> <br>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, nobis?
-              <br>
-            </p>
-            <a target="_blank" href="#boka" class="btn btn-md">TILL BOKNINGEN
-              <i class="fas fa-arrow-down ml-1"></i>
-            </a>
+        <!-- CARD START -->
+        <!-- CARD START -->
+        <div class="col-md-4 pb-3 text-white">
+          <div class="card mb-5">
+            <div class="card-body card-body-cascade text-left bg-cards">
+            <div class="view view-cascade overlay z-depth-2">
+              <img class="card-img-top image-size" src="../assets/gulful.jpg" alt="Machine">
+            </div>
+              <h3 class="mb-3 font-weight-bold mt-3 theme-color">YC18-2</h3>             
+              <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quae quibusdam culpa, omnis labore ipsum incidunt eveniet temporibus repellat atque!
+                <br> <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, nobis?
+                <br>
+              </p>
+              <a href="#Boka" class="btn btn-md">TILL BOKNINGEN
+                <i class="fas fa-arrow-down ml-1"></i>
+              </a>
+            </div>
           </div>
         </div>
+        <!-- CARD START -->
+        <!-- CARD START -->
+        <div class="col-md-4  pb-3 text-white">
+          <div class="card mb-5">
+            <div class="card-body card-body-cascade text-left bg-cards">
+            <div class="view view-cascade overlay z-depth-2">
+              <img class="card-img-top image-size" src="../assets/gulful.jpg" alt="Machine">
+            </div>
+              <h3 class="mb-3 font-weight-bold mt-3 theme-color">YC18-2</h3>             
+              <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quae quibusdam culpa, omnis labore ipsum incidunt eveniet temporibus repellat atque!
+                <br> <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, nobis?
+                <br>
+              </p>
+              <a href="#Boka" class="btn btn-md">TILL BOKNINGEN
+                <i class="fas fa-arrow-down ml-1"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- CARD START -->
       </div>
-      <!-- CARD START -->
     </div>
   </div>
 
-  <div class="jumbotron jumbotron-fluid">
+  <div class="jumbotron jumbotron-fluid my-3">
     <div class="container">
-      <h2 class="display-4">Prislista</h2>
-      <p class="lead">Alla priser nedan är exclusive moms.</p>
+      <div class="text-center">
+        <h1 class="">Prislista</h1>
+        <p class="lead">Alla priser nedan är exclusive moms.</p>
+      </div>
+
 
       <div class="row">
         <div class="p-2 col-12 col-md-6">
@@ -141,7 +146,7 @@ export default {
 .btn {
   background: linear-gradient(to right, rgb(243, 141, 7), rgb(247, 91, 1));
   font-weight: 600;
-  border-radius: 20px;
+  border-radius: 10px;
   font-size: 14px;
   letter-spacing: 1.5px;
   margin: 0;
@@ -197,19 +202,27 @@ th,td {
 }
 
 .card-body {
-  border-radius: 10px;
+  border-radius: 6px;
   min-height: 525px;
     
 }
 
 .view {
   margin-top: -4rem;
-  border-radius: 10px;  
+  border-radius: 5px;  
 }
 
 .bg-cards {
   background: linear-gradient(to bottom, rgb(32, 32, 32), rgb(19, 19, 19));
   box-shadow: 0px 5px 20px 10px rgba(0, 0, 0, 0.219);  
+}
+
+.bg-color {
+  background-color: rgba(0, 0, 0, 0.836);
+  box-shadow: 0px 5px 20px 10px rgba(0, 0, 0, 0.219); 
+}
+.bg-color1 {
+  background-color: rgba(230, 228, 228, 0.192);
 }
 
 </style>

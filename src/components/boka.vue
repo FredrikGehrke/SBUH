@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid pb-5 dark-bg">
+  <div class="container-fluid pb-5 dark-bg" id="Boka">
     <div class="container">
       <div class="text-center text-white">
         <h1 class="pt-5">Boka!</h1>
