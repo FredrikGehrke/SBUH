@@ -70,7 +70,7 @@
     </div>
   </div>
 
-  <div class="jumbotron jumbotron-fluid my-3">
+  <div class="jumbotron jumbotron-fluid my-3" id="Priser">
     <div class="container">
       <div class="text-center">
         <h1 class="">Prislista</h1>
