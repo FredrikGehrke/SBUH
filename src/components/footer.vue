@@ -4,7 +4,7 @@
             <footer class="page-footer font-small footer-bg pt-4">
                 <div class="container-fluid text-center text-md-left container">
                     <div class="row">
-                        <div class="col-md-6 mt-md-0 mt-3">
+                        <div class="col-md-5 mt-md-0 mt-3">
                             <h5 class="SBUH theme-color">Sollentuna Bygguthyrning</h5>
                             <p class="text-white">Har flera telefonnummer, ring, dra iväg ett mail eller skriv till mig på messenger!</p>
                         </div>
@@ -36,7 +36,9 @@
                                     <a href="#!">Link 3</a>
                                 </li>
                             </ul>
-                            <i v-on:click="scrollToTop()" class="fas fa-arrow-up totop fa-2x d-none d-lg-block"></i>
+                        </div>
+                        <div class="col-md-1 mb-md-0 mb-3">
+                            <button id="topBtn"><i v-on:click="scrollToTop()" class="fas fa-arrow-up totop fa-2x d-none d-lg-block"></i></button>
                         </div>
                     </div>
                 </div>
@@ -62,21 +64,27 @@ export default {
 </script>
 
 <style scoped>
-    a {
-        text-decoration: none;
-        color: white;
-    }
-    .totop{
-        position: absolute;
-        left: 540px;
-        top: -5px;
-        background-color: var(--theme-color);
+    #topBtn {
+        background: none;
+        color: inherit;
+        border: none;
+        padding: 0;
+        font: inherit;
+        cursor: pointer;
+        outline: inherit;
+
+                background-color: var(--theme-color);
         padding: 6px;
         border-radius: 5px;
         cursor: pointer;
-    } .totop:hover {
+    }#topBtn:hover {
         background-color: white;
         color: var(--theme-color)
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
     }
 
     .heading {
@@ -90,7 +98,7 @@ export default {
     }
 
     .footer-bg {
-        background: linear-gradient(to bottom, rgba(21, 26, 36, 0.966), rgb(21, 28, 43));
+        background: linear-gradient(to bottom, rgb(22, 22, 22), rgb(19, 19, 19));
     }
 
     .footer-style {
@@ -98,7 +106,7 @@ export default {
     }
 
     .footer-color {
-        background: linear-gradient(to bottom, rgba(16, 19, 26, 0.966), rgb(20, 25, 36));
+        background: linear-gradient(to bottom, rgb(26, 26, 26), rgb(19, 19, 19));
     }
 
 </style>

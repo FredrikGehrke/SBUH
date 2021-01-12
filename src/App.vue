@@ -64,7 +64,7 @@ html {
 }
 
 .bg-color {
-  background-color: rgba(230, 228, 228, 0.192) !important;
+  background-color: rgba(230, 228, 228, 0.192);
 }
 
 .SBUH {
@@ -74,6 +74,20 @@ html {
 
 .title-color {
   color: rgb(32, 32, 32);
+}
+
+.btn:hover {
+  box-shadow: 0px 0px 20px 2px rgb(243, 141, 7);  
+  color: white;
+}
+
+h1, h2, h3, h4 ,h5 {
+  font-family: 'Roboto Slab', serif;
+}
+
+.dark-bg {
+  background: linear-gradient(to bottom, rgb(32, 32, 32), rgb(19, 19, 19));
+  box-shadow: 0px 5px 20px 10px rgba(0, 0, 0, 0.219);  
 }
 
 </style>

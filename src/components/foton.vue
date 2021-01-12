@@ -1,6 +1,6 @@
 <template>
-  <div class="container" id="foton">
-    <div class="pt-5 pb-4">
+  <div class="container pb-4" id="foton">
+    <div class="pt-5 pb-3">
       <div class="offset-md-3 col-md-6 col-12 text-center">
         <h1 class="title-color">Foton</h1>
       </div>
