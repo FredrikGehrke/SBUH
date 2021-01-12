@@ -21,29 +21,32 @@
           <i class="fas fa-envelope fa-2x theme-color mt-5"></i>
           <p class="font-weight-bold mb-0">leif@sbuh.se</p>
         </div>
-        <form class="col-md-6 mt-5 mx-auto text-white">
+        <form @submit.prevent="sendEmail" class="col-md-6 mt-5 mx-auto text-white" >
           <div class="form-group">
             <label for="exampleFormControlInput1">Namn</label>
             <input
-              type="email"
               class="form-control"
-              id="exampleFormControlInput1"
-              placeholder="Ange ditt fullständiga namn"
+              type="text" 
+              v-model="name"
+              name="name"
+              placeholder="Fullständigt namn"
             />
           </div>
           <div class="form-group">
             <label for="exampleFormControlInput1">Email address</label>
             <input
-              type="email"
               class="form-control"
-              id="exampleFormControlInput1"
-              placeholder="name@example.com"
+              v-model="email"
+              name="email"
+              placeholder="hej123@hotmail.com"
             />
           </div>
           <div class="form-group">
             <label for="exampleFormControlInput1">Telefonnummer</label>
             <input
+              name="phone"
               type="text"
+              v-model="phone"
               class="form-control"
               id="exampleFormControlInput1"
               placeholder="073-00 333 33"
@@ -55,22 +58,57 @@
               >Skriv ditt meddelande</label
             >
             <textarea
-              class="form-control"
-              id="exampleFormControlTextarea1"
-              rows="3"
+            class="form-control"
+            name="message"
+            v-model="message"
+            cols="30" rows="5"
+            placeholder="Boknings önskning eller meddelande">
             ></textarea>
           </div>
           <button type="submit" class="btn theme-bg text-white mb-2">
             Skicka
           </button>
         </form>
+  
+        
       </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+import emailjs from 'emailjs-com';
+export default {
+    data() {
+    return {
+      name: '',
+      email: '',
+      phone: '',
+      message: ''
+    }
+  },
+  methods: {
+    sendEmail(e) {
+      try {
+        emailjs.sendForm('service_znhwm1q', 'template_nr78esb', e.target, 'user_6ZLxEOc8AUgESCsoGdlFa', {
+          name: this.name,
+          email: this.email,
+          message: this.message,
+          phone: this.phone
+        })
+        console.log('it works!!!')
+
+      } catch (error) {
+          console.log({error})
+      }
+      // Reset form field
+      this.name = ''
+      this.email = ''
+      this.message = ''
+      this.phone = ''
+    },
+  }
+};
 </script>
 
 <style scoped>
