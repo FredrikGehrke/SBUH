@@ -14,9 +14,6 @@
           <li class="nav-item">
             <a class="nav-link text-dark" href="#boka">Boka</a>
           </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link text-dark" href="#kontakt">Kontakt</a>
-          </li> -->
           <li class="nav-item">
             <a class="nav-link text-dark" href="#foton">Foton</a>
           </li>
