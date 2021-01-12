@@ -15,8 +15,6 @@ export default {
 
 <style scoped>
 
-h1{
-  font-weight: bold;
-}
+
 
 </style>

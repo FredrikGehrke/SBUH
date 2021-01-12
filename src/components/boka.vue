@@ -1,8 +1,8 @@
 <template>
-  <div class="container-fluid mb-5 darkBackground">
+  <div class="container-fluid pb-5 dark-bg">
     <div class="container">
-      <div class="text-center mt-5 text-white">
-        <h1 class="title-color pt-5">Boka!</h1>
+      <div class="text-center text-white">
+        <h1 class="pt-5">Boka!</h1>
         <hr class="mb-4" />
         <h6>Skicka gärna din bokning eller meddelande till oss här</h6>
       </div>
@@ -80,11 +80,12 @@ hr {
   margin: auto;
   padding: 1px;
 }
-.darkBackground {
-  background: linear-gradient(
-    to bottom,
-    rgb(32, 32, 32),
-    rgb(19, 19, 19)
-  ) !important;
+
+.btn {
+  background: linear-gradient(to right, rgb(243, 141, 7), rgb(247, 91, 1));
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0;
 }
+
 </style>

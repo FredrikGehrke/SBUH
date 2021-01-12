@@ -4,9 +4,9 @@
     <landingHeader />
     <foretaget />
     <prisLista />
+    <boka />
     <foton />
     <kunder />
-    <contactform />
     <myFooter />
   
   </div>
@@ -20,7 +20,7 @@ import myFooter from './components/footer'
 import prisLista from './components/prisLista'
 import kunder from './components/kunder'
 import foton from './components/foton'
-import Contactform from './components/contactform.vue'
+import boka from './components/boka'
 
 export default {
   name: 'App',
@@ -32,7 +32,7 @@ export default {
     prisLista,
     kunder,
     foton,
-    Contactform
+    boka
   }
 }
 </script>
@@ -83,6 +83,9 @@ html {
 
 h1, h2, h3, h4 ,h5 {
   font-family: 'Roboto Slab', serif;
+}
+h1{
+  font-weight: bold;
 }
 
 .dark-bg {

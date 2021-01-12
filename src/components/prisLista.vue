@@ -1,101 +1,71 @@
 <template>
 <div class="bg-color pb-5 pt-3" id="maskiner&prislista">
-  <div class="container mt-4">
+  <div class="mt-4">
       <h1 class="text-center title-color">Maskiner</h1>
-      <!-- <div class="card-deck mb-5">
-        <div class="card">
-          <img class="card-img-top imgprice" src="../assets/gulful.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">YC18-2</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <button class="btn text-white ml-0">BOKA VIA MAIL</button>
-          </div>
-        </div>
-        <div class="card">
-          <img class="card-img-top imgprice" src="../assets/gulful.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">YC18-2</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <button class="btn text-white ml-0">BOKA VIA MAIL</button>
-          </div>
-        </div>
-        <div class="card">
-          <img class="card-img-top imgprice" src="../assets/gulful.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">YC18-2</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <button class="btn text-white ml-0">BOKA VIA MAIL</button>
-          </div>
-        </div>
-      </div> -->
   </div>
-
-  
   <div class="container">
     <div class="row mt-5 py-4 pt-4">
-
-
-          <!-- NOMEA CARD START -->
-          <div class="col-md-4 pb-3 text-white">
-            <div class="card mb-5">
-              <div class="card-body card-body-cascade text-left bg-cards">
-              <div class="view view-cascade overlay z-depth-2">
-                <img class="card-img-top image-size" src="../assets/gulful.jpg" alt="Machine">
-              </div>
-                <h3 class="mb-3 font-weight-bold mt-3 theme-color">YC18-2</h3>             
-                <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quae quibusdam culpa, omnis labore ipsum incidunt eveniet temporibus repellat atque!
-                  <br> <br>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, nobis?
-                  <br>
-                </p>
-                <a target="_blank" href="#boka" class="btn btn-md">TILL BOKNINGEN
-                  <i class="fas fa-arrow-down ml-1"></i>
-                </a>
-              </div>
-            </div>
+      <!-- CARD START -->
+      <div class="col-md-4 pb-3 text-white">
+        <div class="card mb-5">
+          <div class="card-body card-body-cascade text-left bg-cards">
+          <div class="view view-cascade overlay z-depth-2">
+            <img class="card-img-top image-size" src="../assets/gulful.jpg" alt="Machine">
           </div>
-          <!-- NOMEA CARD START -->
-          <!-- NOMEA CARD START -->
-          <div class="col-md-4 pb-3 text-white">
-            <div class="card mb-5">
-              <div class="card-body card-body-cascade text-left bg-cards">
-              <div class="view view-cascade overlay z-depth-2">
-                <img class="card-img-top image-size" src="../assets/gulful.jpg" alt="Machine">
-              </div>
-                <h3 class="mb-3 font-weight-bold mt-3 theme-color">YC18-2</h3>             
-                <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quae quibusdam culpa, omnis labore ipsum incidunt eveniet temporibus repellat atque!
-                  <br> <br>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, nobis?
-                  <br>
-                </p>
-                <a target="_blank" href="#boka" class="btn btn-md">TILL BOKNINGEN
-                  <i class="fas fa-arrow-down ml-1"></i>
-                </a>
-              </div>
-            </div>
+            <h3 class="mb-3 font-weight-bold mt-3 theme-color">YC18-2</h3>             
+            <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quae quibusdam culpa, omnis labore ipsum incidunt eveniet temporibus repellat atque!
+              <br> <br>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, nobis?
+              <br>
+            </p>
+            <a target="_blank" href="#boka" class="btn btn-md">TILL BOKNINGEN
+              <i class="fas fa-arrow-down ml-1"></i>
+            </a>
           </div>
-          <!-- NOMEA CARD START -->
-          <!-- NOMEA CARD START -->
-          <div class="col-md-4  pb-3 text-white">
-            <div class="card mb-5">
-              <div class="card-body card-body-cascade text-left bg-cards">
-              <div class="view view-cascade overlay z-depth-2">
-                <img class="card-img-top image-size" src="../assets/gulful.jpg" alt="Machine">
-              </div>
-                <h3 class="mb-3 font-weight-bold mt-3 theme-color">YC18-2</h3>             
-                <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quae quibusdam culpa, omnis labore ipsum incidunt eveniet temporibus repellat atque!
-                  <br> <br>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, nobis?
-                  <br>
-                </p>
-                <a target="_blank" href="#boka" class="btn btn-md">TILL BOKNINGEN
-                  <i class="fas fa-arrow-down ml-1"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- NOMEA CARD START -->
         </div>
+      </div>
+      <!-- CARD START -->
+      <!-- CARD START -->
+      <div class="col-md-4 pb-3 text-white">
+        <div class="card mb-5">
+          <div class="card-body card-body-cascade text-left bg-cards">
+          <div class="view view-cascade overlay z-depth-2">
+            <img class="card-img-top image-size" src="../assets/gulful.jpg" alt="Machine">
+          </div>
+            <h3 class="mb-3 font-weight-bold mt-3 theme-color">YC18-2</h3>             
+            <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quae quibusdam culpa, omnis labore ipsum incidunt eveniet temporibus repellat atque!
+              <br> <br>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, nobis?
+              <br>
+            </p>
+            <a target="_blank" href="#boka" class="btn btn-md">TILL BOKNINGEN
+              <i class="fas fa-arrow-down ml-1"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- CARD START -->
+      <!-- CARD START -->
+      <div class="col-md-4  pb-3 text-white">
+        <div class="card mb-5">
+          <div class="card-body card-body-cascade text-left bg-cards">
+          <div class="view view-cascade overlay z-depth-2">
+            <img class="card-img-top image-size" src="../assets/gulful.jpg" alt="Machine">
+          </div>
+            <h3 class="mb-3 font-weight-bold mt-3 theme-color">YC18-2</h3>             
+            <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quae quibusdam culpa, omnis labore ipsum incidunt eveniet temporibus repellat atque!
+              <br> <br>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, nobis?
+              <br>
+            </p>
+            <a target="_blank" href="#boka" class="btn btn-md">TILL BOKNINGEN
+              <i class="fas fa-arrow-down ml-1"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- CARD START -->
+    </div>
   </div>
 
   <div class="jumbotron jumbotron-fluid">
@@ -106,12 +76,8 @@
       <div class="row">
         <div class="p-2 col-12 col-md-6">
           <table>
-            <!-- <thead>
-              <tr> -->
-                <th class="title"><i class="fas fa-clock theme-color"></i> Tid</th>
-                <th class="title">Pris</th>
-              <!-- </tr>
-            </thead> -->
+              <th class="title"><i class="fas fa-clock theme-color"></i> Tid</th>
+              <th class="title">Pris</th>
               <tbody>
                 <tr>
                   <td>1 Dygn</td>
@@ -136,12 +102,8 @@
         <!-- LEVERANS -->
         <div class="p-2 col-12 col-md-6">
           <table>
-            <!-- <thead>
-              <tr> -->
-                <th class="title"><i class="fas fa-truck theme-color"></i> Leverans eller Hämtning</th>
-                <th class="title">Pris</th>
-              <!-- </tr>
-            </thead> -->
+              <th class="title"><i class="fas fa-truck theme-color"></i> Leverans eller Hämtning</th>
+              <th class="title">Pris</th>
               <tbody>
                 <tr>
                   <td>Norrort</td>
