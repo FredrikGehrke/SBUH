@@ -5,7 +5,7 @@
         <h1 class="title-color">Foton</h1>
       </div>
     </div>
-    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleCaptions" class="carousel slide m-auto" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -13,24 +13,24 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="../assets/pexels-andy-vu-3244513.jpg" class="d-block w-100" alt="...">
+        <img src="../assets/TB016.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h5>TB016</h5>
+          <!-- <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> -->
         </div>
       </div>
       <div class="carousel-item">
-        <img src="../assets/pexels-andy-vu-3244513.jpg" class="d-block w-100 h-80" alt="...">
+        <img src="../assets/YC18-2.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h5>YC18-2</h5>
+          <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
         </div>
       </div>
       <div class="carousel-item">
-        <img src="../assets/pexels-andy-vu-3244513.jpg" class="d-block w-100" alt="...">
+        <img src="../assets/abelco.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <h5>abelco xc15</h5>
+          <!-- <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> -->
         </div>
       </div>
     </div>
@@ -55,9 +55,21 @@ export default {
 </script>
 
 <style scoped>
-h1{
-  font-weight: bold;
 
+.carousel-item img{
+  max-height: 700px !important;
+}
+
+.carousel {
+  max-width: 80%;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
 </style>

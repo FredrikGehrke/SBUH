@@ -7,11 +7,11 @@
     <div class="container">
       <div class="row mt-5 pt-4">
         <!-- CARD START -->
-        <div class="col-md-4 pb-3 wow fadeInLeft" data-wow-duration="2s">
+        <div class="col-md-4 pb-5 wow fadeInLeft" data-wow-duration="2s">
           <div class="card mb-5">
             <div class="card-body card-body-cascade text-left bg-cards">
               <div class="view view-cascade overlay z-depth-2">
-                <img class="card-img-top image-size" src="../assets/gulful.jpg" alt="Machine">
+                <img class="card-img-top image-size" src="../assets/YC18.jpg" alt="Machine">
               </div>
               <div class="text-body">
                 <h3 class="mb-3 font-weight-bold mt-3 theme-color">YC18-2</h3>             
@@ -29,14 +29,14 @@
         </div>
         <!-- CARD END -->
         <!-- CARD START -->
-        <div class="col-md-4 pb-3 wow fadeInUp" data-wow-duration="2s">
+        <div class="col-md-4 pb-5 wow fadeInUp" data-wow-duration="2s">
           <div class="card mb-5">
             <div class="card-body card-body-cascade text-left bg-cards">
               <div class="view view-cascade overlay z-depth-2">
-                <img class="card-img-top image-size" src="../assets/gulful.jpg" alt="Machine">
+                <img class="card-img-top image-size" src="../assets/abelco.jpg" alt="Machine">
               </div>
               <div class="text-body">
-                <h3 class="mb-3 font-weight-bold mt-3 theme-color">Abelco XC15</h3>             
+                <h3 class="mb-3 font-weight-bold mt-3 theme-color">Abelco xc15</h3>             
                 <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quae quibusdam culpa, omnis labore ipsum incidunt eveniet temporibus repellat atque!
                   <br> <br>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, nobis?
@@ -51,11 +51,11 @@
         </div>
         <!-- CARD END -->
         <!-- CARD START -->
-        <div class="col-md-4 pb-3 wow fadeInRight" data-wow-duration="2s">
+        <div class="col-md-4 pb-5 wow fadeInRight" data-wow-duration="2s">
           <div class="card mb-5">
             <div class="card-body card-body-cascade text-left bg-cards">
               <div class="view view-cascade overlay z-depth-2">
-                <img class="card-img-top image-size" src="../assets/gulful.jpg" alt="Machine">
+                <img class="card-img-top image-size" src="../assets/TB016.jpg" alt="Machine">
               </div>
               <div class="text-body">
                 <h3 class="mb-3 font-weight-bold mt-3 theme-color">TB016</h3>             

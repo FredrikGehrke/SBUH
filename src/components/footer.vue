@@ -8,7 +8,6 @@
                             <h5 class="SBUH theme-color">Sollentuna Bygguthyrning</h5>
                             <p class="text-white">Har flera telefonnummer, ring, dra iväg ett mail eller skriv till mig på messenger!</p>
                         </div>
-                        <hr class="clearfix w-100 d-md-none pb-3">
                         <div class="col-md-3 mb-md-0 mb-3">
                             <h5 class="heading theme-color">Telefonnummer</h5>
                             <ul class="list-unstyled">
