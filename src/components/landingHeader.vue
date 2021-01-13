@@ -7,10 +7,10 @@
                     <div class="card">
                         <div class="text-white text-center align-items-center py-5 px-4 px-md-5 my-margin-top">
                             <div>
-                                <h1 class="py-1 font-weight-bold" data-aos="fade-down" data-aos-duration="2000"> 
+                                <h1 class="py-1 font-weight-bold"> 
                                     <strong class="SBUH">Sollentuna Bygguthyrning</strong>
                                 </h1>
-                                <p id="slogan" class="pb-2" data-aos="fade-up" data-aos-duration="2000">
+                                <p id="slogan" class="pb-2">
                                   Vi erbjuder smidiga grävare där du inte behöver oroa dig för att tomten ska bli förstörd. 
                                   <br> Finns även möjlighet till att hyra förare!
                                 </p>
