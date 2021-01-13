@@ -14,12 +14,24 @@
           </p>
 
           <i class="fas fa-phone-square-alt fa-2x theme-color mt-5"></i>
-          <p class="font-weight-bold mb-0">070-2200491</p>
-          <p class="font-weight-bold mb-0">073-5745403</p>
-          <p class="font-weight-bold mb-0">0762-577951</p>
+          <ul class="list-unstyled text-white font-weight-bold">
+            <li>
+                <a href="tel:0702200491">070-2200491</a>
+            </li>
+            <li>
+                <a href="tel:0735745403">073-5745403</a>
+            </li>
+            <li>
+                <a href="tel:0762577951">0762-577951</a>
+            </li>
+          </ul>
 
-          <i class="fas fa-envelope fa-2x theme-color mt-5"></i>
-          <p class="font-weight-bold mb-0">leif@sbuh.se</p>
+          <a href="mailto:leif@sbuh.se"><i class="fas fa-envelope fa-2x theme-color mt-5"></i></a>
+          <ul class="list-unstyled font-weight-bold">
+            <li>
+                <a href="mailto:leif@sbuh.se">leif@sbuh.se</a>
+            </li>
+          </ul>
         </div>
         <form @submit.prevent="sendEmail" class="col-md-6 mt-5 mx-auto text-white" >
           <div class="form-group">
@@ -38,7 +50,7 @@
               class="form-control"
               v-model="email"
               name="email"
-              placeholder="hej123@hotmail.com"
+              placeholder="exempel123@hotmail.com"
             />
           </div>
           <div class="form-group">
@@ -54,9 +66,7 @@
           </div>
 
           <div class="form-group">
-            <label for="exampleFormControlTextarea1"
-              >Skriv ditt meddelande</label
-            >
+            <label for="exampleFormControlTextarea1">Skriv ditt meddelande</label>
             <textarea
             class="form-control"
             name="message"
@@ -124,6 +134,13 @@ hr {
   font-weight: 600;
   font-size: 14px;
   margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+} a:hover {
+  color: var(--theme-color)
 }
 
 </style>

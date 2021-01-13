@@ -86,6 +86,8 @@ export default {
     a {
         text-decoration: none;
         color: white;
+    }a:hover {
+        color: var(--theme-color)
     }
 
     .heading {
