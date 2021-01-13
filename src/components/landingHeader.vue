@@ -7,15 +7,15 @@
                     <div class="card">
                         <div class="text-white text-center align-items-center py-5 px-4 px-md-5 my-margin-top">
                             <div>
-                                <h1 class="py-1 font-weight-bold wow fadeInDown" data-wow-duration="2s"> 
+                                <h1 class="py-1 font-weight-bold animated fadeIn" style="animation-delay: 700ms;">
                                     <strong class="SBUH">Sollentuna Bygguthyrning</strong>
                                 </h1>
-                                <p id="slogan" class="pb-2 wow fadeInUp" data-wow-duration="2s">
+                                <p id="slogan" class="pb-2 animated fadeIn" style="animation-delay: 800ms;">
                                   Vi erbjuder smidiga grävare där du inte behöver oroa dig för att tomten ska bli förstörd. 
                                   <br> Finns även möjlighet till att hyra förare!
                                 </p>
-                                <a href="#Boka" class="btn wow fadeIn" data-wow-duration="4s">BOKA <i class="fas fa-pen ml-1"></i></a>
-                                <a href="#Priser" class="btn wow fadeIn" data-wow-duration="4s">Priser <i class="fas fa-tag ml-1"></i></a>
+                                <a href="#Boka" class="btn animated fadeInUp" style="animation-delay: 900ms;">BOKA <i class="fas fa-pen ml-1"></i></a>
+                                <a href="#Priser" class="btn animated fadeInUp" style="animation-delay: 900ms;">Priser <i class="fas fa-tag ml-1"></i></a>
                             </div>
                         </div>
                     </div>
@@ -58,7 +58,8 @@
 }
 
 .my-overlay {
-  background: rgba(0, 0, 0, 0.87);
+  /* background: rgba(0, 0, 0, 0.87); */
+  background: rgba(0, 0, 0, 0.781);
 }
 
 .bg-img {

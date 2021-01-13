@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark white">
+  <nav class="navbar navbar-expand-lg navbar-dark  white">
     <div class="container">
 
       <a class="navbar-brand text-dark" href="#">SBUH</a>
@@ -54,6 +54,7 @@ export default {
   font-weight: 800;
   font-size: 26px;
   font-family: 'Roboto Slab', serif;
+  /* color: var(--theme-color) */
 }
 
 .nav-link {
@@ -73,6 +74,11 @@ export default {
   padding: 10px 18px 10px 18px;
   border-radius: 6px;
   margin-left: 0;
+}
+
+.navbar {
+  /* background: linear-gradient(to bottom, rgb(209, 209, 209), rgb(143, 143, 143)); */
+  box-shadow: 0px 5px 10px 10px rgba(0, 0, 0, 0.219);  
 }
 
 

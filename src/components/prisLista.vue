@@ -76,7 +76,7 @@
     </div>
   </div>
 
-  <div class="jumbotron jumbotron-fluid my-3" id="Priser">
+  <div class="jumbotron jumbotron-fluid my-2" id="Priser">
     <div class="container">
       <div class="text-center">
         <h1 class="">Prislista</h1>
@@ -126,7 +126,7 @@
                 </tr>
                 <tr>
                   <td> </td>
-                  <td class="">6000 kr</td>
+                  <td class="text-white">6000 kr</td>
                 </tr>
                 <tr>
                   <td></td>
