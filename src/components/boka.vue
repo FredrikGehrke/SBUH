@@ -41,7 +41,7 @@
               type="text" 
               v-model="name"
               name="name"
-              placeholder="Fullständigt namn"
+            
             />
           </div>
           <div class="form-group">
@@ -50,7 +50,7 @@
               class="form-control"
               v-model="email"
               name="email"
-              placeholder="exempel123@hotmail.com"
+             
             />
           </div>
           <div class="form-group">
@@ -61,7 +61,7 @@
               v-model="phone"
               class="form-control"
               id="exampleFormControlInput1"
-              placeholder="073-00 333 33"
+             
             />
           </div>
 
@@ -71,8 +71,7 @@
             class="form-control"
             name="message"
             v-model="message"
-            cols="30" rows="5"
-            placeholder="Boknings önskning eller meddelande">
+            cols="30" rows="8"
             ></textarea>
           </div>
           <button type="submit" class="btn theme-bg text-white mb-2">
@@ -122,6 +121,13 @@ export default {
 </script>
 
 <style scoped>
+  .form-control:focus {
+        border-color:rgb(243, 141, 7);
+        box-shadow: 0px 1px 1px rgba(243, 141, 7) inset, 0px 0px 8px rgba(243, 141, 7);
+    }
+textarea {
+  resize: none;
+}
 hr {
   background: var(--theme-color);
   width: 5%;
