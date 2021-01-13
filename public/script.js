@@ -1,7 +1,7 @@
-$(document).ready(function() {
+// $(document).ready(function() {
 
 
-// AOS INIT
-    AOS.init();
+// // AOS INIT
 
-})
+// })
+new WOW().init();

@@ -12,7 +12,7 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link text-dark" href="#boka">Boka</a>
+            <a class="nav-link text-dark" href="#Boka">Boka</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-dark" href="#foton">Foton</a>

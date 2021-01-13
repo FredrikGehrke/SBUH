@@ -7,7 +7,7 @@
     <div class="container">
       <div class="row mt-5 pt-4">
         <!-- CARD START -->
-        <div class="col-md-4 pb-3">
+        <div class="col-md-4 pb-3 wow fadeInLeft" data-wow-duration="2s">
           <div class="card mb-5">
             <div class="card-body card-body-cascade text-left bg-cards">
               <div class="view view-cascade overlay z-depth-2">
@@ -29,7 +29,7 @@
         </div>
         <!-- CARD END -->
         <!-- CARD START -->
-        <div class="col-md-4 pb-3">
+        <div class="col-md-4 pb-3 wow fadeInUp" data-wow-duration="2s">
           <div class="card mb-5">
             <div class="card-body card-body-cascade text-left bg-cards">
               <div class="view view-cascade overlay z-depth-2">
@@ -51,7 +51,7 @@
         </div>
         <!-- CARD END -->
         <!-- CARD START -->
-        <div class="col-md-4 pb-3">
+        <div class="col-md-4 pb-3 wow fadeInRight" data-wow-duration="2s">
           <div class="card mb-5">
             <div class="card-body card-body-cascade text-left bg-cards">
               <div class="view view-cascade overlay z-depth-2">
