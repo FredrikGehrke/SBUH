@@ -55,6 +55,8 @@ export default {
   font-size: 26px;
   font-family: 'Roboto Slab', serif;
   /* color: var(--theme-color) */
+}.navbar-brand:hover {
+  color: var(--theme-color) !important;
 }
 
 .nav-link {
