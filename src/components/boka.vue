@@ -98,6 +98,12 @@ export default {
   },
   methods: {
     sendEmail(e) {
+
+      // let letters = /^[A-Za-z]+$/
+
+      if(this.name.length > 1) {
+        alert("skickar nu")
+
       try {
         emailjs.sendForm('service_znhwm1q', 'template_nr78esb', e.target, 'user_6ZLxEOc8AUgESCsoGdlFa', {
           name: this.name,
@@ -110,6 +116,11 @@ export default {
       } catch (error) {
           console.log({error})
       }
+      } else {
+        alert("skickar inte")
+      }
+
+
       // Reset form field
       this.name = ''
       this.email = ''
