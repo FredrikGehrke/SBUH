@@ -67,4 +67,15 @@
   background-size: cover;
 }
 
+
+@media (max-width: 576px) { 
+  .SBUH {
+    font-size: 30px;
+
+  }
+}
+
+
+
+
 </style>
