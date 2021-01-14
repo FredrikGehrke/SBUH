@@ -12,7 +12,6 @@
           <p class="font-weight-bold mb-0 text-white">
             724 63 Stockholm, Sverige eller Finland
           </p>
-
           <i class="fas fa-phone-square-alt fa-2x theme-color mt-5 mb-2"></i>
           <ul class="list-unstyled text-white font-weight-bold">
             <li>
@@ -25,7 +24,6 @@
                 <a href="tel:0762577951">0762-577951</a>
             </li>
           </ul>
-
           <a href="mailto:leif@sbuh.se"><i class="fas fa-envelope fa-2x theme-color mt-5"></i></a>
           <ul class="list-unstyled font-weight-bold">
             <li>
@@ -35,23 +33,29 @@
         </div>
         <form @submit.prevent="sendEmail" class="col-md-6 mt-5 mx-auto text-white" >
           <div class="form-group">
-            <label for="exampleFormControlInput1">Namn</label>
+            <label for="exampleFormControlInput1">Namn<span class="theme-color">*</span></label>
             <input
               class="form-control"
               type="text" 
               v-model="name"
               name="name"
-            
+              id="invalidName" required
             />
+            <small class="invalid-feedback">
+              Skriv ett korrekt namn
+            </small>
           </div>
           <div class="form-group">
-            <label for="exampleFormControlInput1">Email address</label>
+            <label for="exampleFormControlInput1">Email address<span class="theme-color">*</span></label>
             <input
               class="form-control"
               v-model="email"
-              name="email"
-             
+              name="email" 
+              id="invalidEmail" required
             />
+            <small class="invalid-feedback">
+              Skriv en korrekt email address.
+            </small>
           </div>
           <div class="form-group">
             <label for="exampleFormControlInput1">Telefonnummer</label>
@@ -60,26 +64,30 @@
               type="text"
               v-model="phone"
               class="form-control"
-              id="exampleFormControlInput1"
-             
+              id="invalidPhone"
             />
+            <small class="invalid-feedback">
+              Skriv ett korrekt telefonnummer
+            </small>
           </div>
-
           <div class="form-group">
-            <label for="exampleFormControlTextarea1">Skriv ditt meddelande</label>
+            <label for="exampleFormControlTextarea1">Skriv ditt meddelande<span class="theme-color">*</span></label>
             <textarea
             class="form-control"
             name="message"
             v-model="message"
-            cols="30" rows="8"
+            cols="30" rows="8" required
             ></textarea>
           </div>
-          <button type="submit" class="btn theme-bg text-white mb-2">
-            Skicka
-          </button>
+          <div class="row">
+            <button type="submit" class="btn theme-bg text-white ml-3">
+              Skicka
+            </button>
+            <div class="col-12 col-md-6 theme-color mt-3 mt-sm-0 d-none sentEmail" id="sentText">
+              Ditt mail har skickats!
+            </div>
+          </div>
         </form>
-  
-        
       </div>
     </div>
   </div>
@@ -93,52 +101,83 @@ export default {
       name: '',
       email: '',
       phone: '',
-      message: ''
+      message: '',
+      ValidEmail: false,
+      ValidName: false,
+      ValidPhone: false,
     }
   },
   methods: {
     sendEmail(e) {
+      let nameElement = document.getElementById("invalidName")
+      let emailElement = document.getElementById("invalidEmail")
+      let phoneElement = document.getElementById("invalidPhone")
+      let sentTextElement = document.getElementById("sentText")
 
-      // let letters = /^[A-Za-z]+$/
-
-      if(this.name.length > 1) {
-        alert("skickar nu")
-
-      try {
-        emailjs.sendForm('service_znhwm1q', 'template_nr78esb', e.target, 'user_6ZLxEOc8AUgESCsoGdlFa', {
-          name: this.name,
-          email: this.email,
-          message: this.message,
-          phone: this.phone
-        })
-        console.log('it works!!!')
-
-      } catch (error) {
-          console.log({error})
-      }
+      if(this.email.match(/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/)) { 
+        this.ValidEmail = true 
+        emailElement.classList.remove("is-invalid")
       } else {
-        alert("skickar inte")
+        emailElement.classList.add("is-invalid")
       }
 
+      if(this.name.length > 1 && this.name.match(/^[a-zA-Z-,]+(\s{0,1}[a-zA-Z-, ])*$/)) { 
+        this.ValidName = true 
+        nameElement.classList.remove("is-invalid")
+      } else {
+        nameElement.classList.add("is-invalid")
+      }
 
-      // Reset form field
-      this.name = ''
-      this.email = ''
-      this.message = ''
-      this.phone = ''
+      if(this.phone.match(/^[0-9]+$/)) { 
+        this.ValidPhone = true 
+        phoneElement.classList.remove("is-invalid")
+      } else {
+        phoneElement.classList.add("is-invalid")
+      }
+
+      if(this.ValidName === true && this.ValidEmail === true && this.ValidPhone === true) {
+        try {
+          emailjs.sendForm('service_znhwm1q', 'template_nr78esb', e.target, 'user_6ZLxEOc8AUgESCsoGdlFa', {
+            name: this.name,
+            email: this.email,
+            message: this.message,
+            phone: this.phone
+          })
+
+          sentTextElement.classList.add("d-block")
+          setTimeout(function(){
+            sentTextElement.classList.remove('d-block');
+          }, 10000)
+
+        } catch (error) {
+            console.log({error})
+        }
+
+        this.name = ''
+        this.email = ''
+        this.message = ''
+        this.phone = ''
+      } 
     },
   }
 };
 </script>
 
 <style scoped>
-  .form-control:focus {
-        border-color:rgb(243, 141, 7);
-        box-shadow: 0px 1px 1px rgba(243, 141, 7) inset, 0px 0px 8px rgba(243, 141, 7);
-    }
+
+.sentEmail {
+  align-self: center;
+}
+
+.form-control:focus {
+  border-color:rgb(243, 141, 7);
+  box-shadow: 0px 1px 1px rgba(243, 141, 7) inset, 0px 0px 8px rgba(243, 141, 7);
+}
+
 textarea {
   resize: none;
 }
+
 hr {
   background: var(--theme-color);
   width: 5%;
@@ -159,5 +198,4 @@ a {
 } a:hover {
   color: var(--theme-color)
 }
-
 </style>
