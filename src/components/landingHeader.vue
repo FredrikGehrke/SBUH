@@ -70,7 +70,7 @@
 
 @media (max-width: 600px) { 
   .SBUH {
-    font-size: 30px !important;
+    font-size: 35px !important;
   }
 }
 
