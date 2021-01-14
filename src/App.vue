@@ -81,12 +81,11 @@ html {
   color: white;
 }
 
-h1, h2, h3, h4 ,h5 {
+h1, h2, h3, h4 , h5 {
   font-family: 'Roboto Slab', serif;
-}
-h1{
   font-weight: bold;
 }
+
 
 .dark-bg {
   background: linear-gradient(to bottom, rgb(32, 32, 32), rgb(19, 19, 19));

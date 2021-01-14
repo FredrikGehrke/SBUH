@@ -2,7 +2,7 @@
 <div class="lighter-bg pb-5 pt-3" id="maskiner&prislista">
   <div class="dark-bg mb-5">
     <div class="pt-5 pb-3">
-        <h1 class="text-center text-white">Maskiner</h1>
+        <h5 class="text-center text-white h1 font-weight-bold">Maskiner</h5>
     </div>
     <div class="container">
       <div class="row mt-5 pt-4">
@@ -21,7 +21,7 @@
                   <br>
                 </p>
               </div>
-              <a href="#Boka" class="text-white bokaBtn btn-block">TILL BOKNINGEN
+              <a href="#Boka" class="text-white bokaBtn btn-block text-uppercase">Till bokningen
                 <i class="fas fa-arrow-down ml-1"></i>
               </a>
             </div>
@@ -43,7 +43,7 @@
                   <br>
                 </p>
               </div>
-              <a href="#Boka" class="text-white bokaBtn btn-block">TILL BOKNINGEN
+              <a href="#Boka" class="text-white bokaBtn btn-block text-uppercase">Till bokningen
                 <i class="fas fa-arrow-down ml-1"></i>
               </a>
             </div>
@@ -65,7 +65,7 @@
                   <br>
                 </p>
               </div>
-              <a href="#Boka" class="text-white bokaBtn btn-block">TILL BOKNINGEN
+              <a href="#Boka" class="text-white bokaBtn btn-block text-uppercase">Till bokningen
                 <i class="fas fa-arrow-down ml-1"></i>
               </a>
             </div>
@@ -79,7 +79,7 @@
   <div class="jumbotron jumbotron-fluid my-2" id="Priser">
     <div class="container">
       <div class="text-center">
-        <h1 class="">Prislista</h1>
+        <p class="h1 font-weight-bold">Prislista</p>
         <p class="lead">Alla priser nedan är exclusive moms.</p>
       </div>
 

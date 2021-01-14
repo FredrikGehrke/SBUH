@@ -2,7 +2,7 @@
   <div class="container-fluid pb-5 dark-bg" id="Boka">
     <div class="container">
       <div class="text-center text-white">
-        <h1 class="pt-5 wow heartBeat" data-wow-duration="2s">Boka!</h1>
+        <p class="pt-5 wow heartBeat h1 font-weight-bold" data-wow-duration="2s">Boka!</p>
         <hr class="mb-4" />
         <h6>Skicka gärna din bokning eller meddelande till oss här</h6>
       </div>

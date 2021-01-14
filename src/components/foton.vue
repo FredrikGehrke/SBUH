@@ -2,7 +2,7 @@
   <div class="container pb-4" id="foton">
     <div class="pt-5 pb-3">
       <div class="offset-md-3 col-md-6 col-12 text-center">
-        <h1 class="title-color">Foton</h1>
+        <h3 class="title-color h1 font-weight-bold">Foton</h3>
       </div>
     </div>
     <div id="carouselExampleCaptions" class="carousel slide m-auto" data-ride="carousel">
