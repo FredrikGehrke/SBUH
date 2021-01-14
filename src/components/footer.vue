@@ -5,34 +5,22 @@
                 <div class="container-fluid text-center text-md-left container">
                     <div class="row">
                         <div class="col-md-5 mt-md-0 mt-3">
-                            <h5 class="SBUH theme-color">Sollentuna Bygguthyrning</h5>
-                            <p class="text-white">Har flera telefonnummer, ring, dra iväg ett mail eller skriv till mig på messenger!</p>
+                            <p class="SBUH theme-color h5 font-weight-bold">Sollentuna Bygguthyrning</p>
+                            <p class="text-white">Ring, dra iväg ett mail eller skriv till mig på messenger!</p>
                         </div>
                         <div class="col-md-3 mb-md-0 mb-3">
-                            <h5 class="heading theme-color">Telefonnummer</h5>
+                            <p class="heading theme-color h5 font-weight-bold custom-font-size">Telefonnummer</p>
                             <ul class="list-unstyled">
                                 <li>
                                     <a href="tel:0702200491">070-2200491</a>
                                 </li>
-                                <li>
-                                    <a href="tel:0735745403">073-5745403</a>
-                                </li>
-                                <li>
-                                    <a href="tel:0762577951">0762-577951</a>
-                                </li>
                             </ul>
                         </div>
                         <div class="col-md-3 mb-md-0 mb-3">
-                            <h5 class="heading theme-color">Email</h5>
+                            <p class="heading theme-color h5 font-weight-bold custom-font-size">Email</p>
                             <ul class="list-unstyled">
                                 <li>
                                     <a href="mailto:leif@sbuh.se">leif@sbuh.se</a>
-                                </li>
-                                <li>
-                                    <!-- <a href="#!">Link 2</a> -->
-                                </li>
-                                <li>
-                                    <!-- <a href="#!">Link 3</a> -->
                                 </li>
                             </ul>
                         </div>
@@ -63,6 +51,10 @@ export default {
 </script>
 
 <style scoped>
+
+    .custom-font-size {
+        font-size: 24px;
+    }
 
     #topBtn {
         background: none;

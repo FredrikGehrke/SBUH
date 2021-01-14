@@ -12,16 +12,10 @@
           <p class="font-weight-bold mb-0 text-white">
             724 63 Stockholm, Sverige eller Finland
           </p>
-          <i class="fas fa-phone-square-alt fa-2x theme-color mt-5 mb-2"></i>
+          <a href="tel:0702200491"><i class="fas fa-phone-square-alt fa-2x theme-color mt-5 mb-2"></i></a>
           <ul class="list-unstyled text-white font-weight-bold">
             <li>
                 <a href="tel:0702200491">070-2200491</a>
-            </li>
-            <li>
-                <a href="tel:0735745403">073-5745403</a>
-            </li>
-            <li>
-                <a href="tel:0762577951">0762-577951</a>
             </li>
           </ul>
           <a href="mailto:leif@sbuh.se"><i class="fas fa-envelope fa-2x theme-color mt-5"></i></a>
