@@ -68,10 +68,9 @@
 }
 
 
-@media (max-width: 576px) { 
+@media (max-width: 600px) { 
   .SBUH {
-    font-size: 30px;
-
+    font-size: 30px !important;
   }
 }
 
