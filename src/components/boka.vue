@@ -122,7 +122,7 @@ export default {
         nameElement.classList.add("is-invalid")
       }
 
-      if(this.phone.match(/^[0-9]+$/)) { 
+      if(this.phone.match(/^[0-9]+$/) && this.phone.length < 30) { 
         this.ValidPhone = true 
         phoneElement.classList.remove("is-invalid")
       } else {
