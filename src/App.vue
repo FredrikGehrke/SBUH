@@ -1,7 +1,7 @@
 <template>
   <div>
     <navbar />
-    <landingHeader />
+    <banner />
     <foretaget />
     <prisLista />
     <boka />
@@ -14,7 +14,7 @@
 
 <script>
 import navbar from './components/navbar'
-import landingHeader from './components/landingHeader'
+import banner from './components/banner'
 import foretaget from './components/foretaget'
 import myFooter from './components/footer'
 import prisLista from './components/prisLista'
@@ -26,7 +26,7 @@ export default {
   name: 'App',
   components: {
     navbar,
-    landingHeader,
+    banner,
     foretaget,
     myFooter,
     prisLista,
