@@ -1,7 +1,2 @@
-// $(document).ready(function() {
-
-
-// // AOS INIT
-
-// })
+// WOW Animations init
 new WOW().init();
