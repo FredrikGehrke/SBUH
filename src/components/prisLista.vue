@@ -154,8 +154,11 @@
         <div class="p-2 col-12 col-md-6">
           <th class="title"><i class="fas fa-hard-hat theme-color"></i> Hyr arbetare</th>
           <table class="ml-3">
-            Det finns även möjlighet till att hyra en arbetare till att köra maskinen du hyr. <br> Erbjuder även att köra lastbil eller liknande jobb då arbetare har CE-körkort.
-            <p class="mt-2">Priset för detta varierar, <a href="#Boka"><span class="theme-color">kontakta oss!</span></a></p>
+            Det finns även möjlighet till att hyra en arbetare till att köra maskinen du hyr. <br> Erbjuder även att köra lastbil eller liknande jobb. Priset för detta varierar, <a href="#Boka"><span class="theme-color">kontakta oss!</span></a>
+            <p class="mt-2">
+              <span class="theme-color font-weight-bold">Terex TC29</span> 650kr/h 
+              <br> 
+              <span class="theme-color font-weight-bold">Övriga maskiner</span> 600kr/h</p>
           </table>
         </div>
       </div>
