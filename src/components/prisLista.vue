@@ -11,13 +11,15 @@
           <div class="card mb-5">
             <div class="card-body card-body-cascade text-left bg-cards">
               <div class="view view-cascade overlay z-depth-2">
-                <img class="card-img-top image-size" src="../assets/YC18.jpg" alt="Machine">
+                <img class="card-img-top image-size" src="../assets/TC29.jpg" alt="TC29 Excavator">
               </div>
               <div class="text-body">
-                <h3 class="mb-3 font-weight-bold mt-3 theme-color">YC18-2</h3>             
-                <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quae quibusdam culpa, omnis labore ipsum incidunt eveniet temporibus repellat atque!
+                <h3 class="mb-3 font-weight-bold mt-3 theme-color">Terex TC29</h3>             
+                <p class="card-text text-white">Lite starkare och längre räckvidd med arm än Bobcat E16. <br>
                   <br> <br>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, nobis?
+                  Totalvikt: 2850kg
+                  <br>
+                  Arm räckvidd 4,81m
                   <br>
                 </p>
               </div>
@@ -33,13 +35,15 @@
           <div class="card mb-5">
             <div class="card-body card-body-cascade text-left bg-cards">
               <div class="view view-cascade overlay z-depth-2">
-                <img class="card-img-top image-size" src="../assets/abelco.jpg" alt="Machine">
+                <img class="card-img-top image-size" src="../assets/E16.jpg" alt="E16 Excavator">
               </div>
               <div class="text-body">
-                <h3 class="mb-3 font-weight-bold mt-3 theme-color">Abelco xc15</h3>             
-                <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quae quibusdam culpa, omnis labore ipsum incidunt eveniet temporibus repellat atque!
+                <h3 class="mb-3 font-weight-bold mt-3 theme-color">Bobcat E16</h3>             
+                <p class="card-text text-white">Lite mindre och smidigare än Terex TC29. <br>
                   <br> <br>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, nobis?
+                  Totalvikt: 1600kg
+                  <br>
+                  Arm räckvidd 4,15m
                   <br>
                 </p>
               </div>
@@ -55,14 +59,16 @@
           <div class="card mb-5">
             <div class="card-body card-body-cascade text-left bg-cards">
               <div class="view view-cascade overlay z-depth-2">
-                <img class="card-img-top image-size" src="../assets/TB016.jpg" alt="Machine">
+                <img class="card-img-top image-size" src="../assets/CormidiDumper.jpg" alt="Dumper">
               </div>
               <div class="text-body">
-                <h3 class="mb-3 font-weight-bold mt-3 theme-color">TB016</h3>             
-                <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quae quibusdam culpa, omnis labore ipsum incidunt eveniet temporibus repellat atque!
+                <h3 class="mb-3 font-weight-bold mt-3 theme-color">Dumper</h3>             
+                <p class="card-text text-white">En bättre slags skottkärra med en liten skopa på samt du kan stå på en liten platta och köra den. 
                   <br> <br>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, nobis?
+                  Totalvikt att bära: 800kg
                   <br>
+                  Enkla kontroller att lära sig
+                  <br> 
                 </p>
               </div>
               <a href="#Boka" class="text-white bokaBtn btn-block text-uppercase">Till bokningen
@@ -223,7 +229,7 @@ th,td {
 
 .card-body {
   border-radius: 6px;
-  min-height: 525px;
+  min-height: 460px;
   padding: 0;
 }
 
