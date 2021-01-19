@@ -91,24 +91,34 @@
 
 
       <div class="row">
-        <div class="p-2 col-12 col-md-6">
+        <div class="p-2 col-12 col-md-12">
           <table>
               <th class="title"><i class="fas fa-clock theme-color"></i> Tid</th>
-              <th class="title">Pris</th>
+              <th class="title">Pris:</th>
+              <th class="title"><span class="theme-color">Bobcat E16</span></th>
+              <th class="title"><span class="theme-color">Terex TC29</span></th>
               <tbody>
                 <tr>
                   <td>1 Dygn</td>
+                  <td></td>
                   <td>1000 kr</td>
+                  <td>1400 kr</td>
                 </tr>
                 <tr>
                   <td>Fredag eftermiddag - Söndag kväll</td>
+                  <td></td>
                   <td>2000 kr</td>
+                  <td>2800 kr</td>
                 </tr>
                 <tr>
                   <td>1 Vecka (Hyr 7 dygn till priset av 6 dygn)</td>
+                  <td></td>
                   <td>6000 kr</td>
+                  <td>8400 kr</td>
                 </tr>
                 <tr>
+                  <td></td>
+                  <td></td>
                   <td></td>
                   <td></td>
                 </tr>
