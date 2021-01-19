@@ -10,7 +10,7 @@
         <div class="col-md-6 mt-5 text-white">
           <i class="fas fa-map-marker-alt fa-2x mt-3 theme-color mb-2"></i>
           <p class="font-weight-bold mb-0 text-white">
-            724 63 Stockholm, Sverige eller Finland
+            Sollentuna, Stockholm
           </p>
           <a href="tel:0702200491"><i class="fas fa-phone-square-alt fa-2x theme-color mt-5 mb-2"></i></a>
           <ul class="list-unstyled text-white font-weight-bold">

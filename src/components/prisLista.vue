@@ -15,7 +15,7 @@
               </div>
               <div class="text-body">
                 <h3 class="mb-3 font-weight-bold mt-3 theme-color">Terex TC29</h3>             
-                <p class="card-text text-white">Lite starkare och längre räckvidd med arm än Bobcat E16. <br>
+                <p class="card-text text-white">Mycket starkare och längre räckvidd med arm än Bobcat E16. <br> <br>
                   <br> <br>
                   Totalvikt: 2850kg
                   <br>
@@ -39,7 +39,7 @@
               </div>
               <div class="text-body">
                 <h3 class="mb-3 font-weight-bold mt-3 theme-color">Bobcat E16</h3>             
-                <p class="card-text text-white">Lite mindre och smidigare än Terex TC29. <br>
+                <p class="card-text text-white">Lite mindre och smidigare än Terex TC29. Lättare att ta sig in i trånga områden. <br>
                   <br> <br>
                   Totalvikt: 1600kg
                   <br>
@@ -63,7 +63,7 @@
               </div>
               <div class="text-body">
                 <h3 class="mb-3 font-weight-bold mt-3 theme-color">Dumper</h3>             
-                <p class="card-text text-white">En bättre slags skottkärra med en liten skopa på samt du kan stå på en liten platta och köra den. 
+                <p class="card-text text-white">En bättre slags skottkärra med en liten skopa på samt du kan stå på en liten platta och köra den. Skopan går att tilta.
                   <br> <br>
                   Totalvikt att bära: 800kg
                   <br>
@@ -97,16 +97,28 @@
               <th class="title">Pris</th>
               <tbody>
                 <tr>
-                  <td>1 Dygn</td>
+                  <td>1 Dygn <span class="theme-color">Bobcat E16</span></td>
                   <td>1000 kr</td>
                 </tr>
                 <tr>
-                  <td>Fredag eftermiddag - Söndag kväll</td>
+                  <td>1 Dygn <span class="theme-color">Terex TC29</span></td>
+                  <td>1400 kr</td>
+                </tr>
+                <tr>
+                  <td>Fredag eftermiddag - Söndag kväll <span class="theme-color">Bobcat E16</span></td>
                   <td>2000 kr</td>
                 </tr>
                 <tr>
-                  <td>1 Vecka (Hyr 7 dygn till priset av 6 dygn)</td>
+                  <td>Fredag eftermiddag - Söndag kväll <span class="theme-color">Terex TC29</span></td>
+                  <td>2800 kr</td>
+                </tr>
+                <tr>
+                  <td>1 Vecka (Hyr 7 dygn till priset av 6 dygn) <span class="theme-color">Bobcat E16</span></td>
                   <td>6000 kr</td>
+                </tr>
+                <tr>
+                  <td>1 Vecka (Hyr 7 dygn till priset av 6 dygn) <span class="theme-color">Terex TC29</span></td>
+                  <td>8400 kr</td>
                 </tr>
                 <tr>
                   <td></td>
@@ -115,7 +127,7 @@
               </tbody>
           </table>
         </div>
-        
+        <!-- Terex 1400kr,  -->
         <!-- LEVERANS -->
         <div class="p-2 col-12 col-md-6">
           <table>
@@ -131,8 +143,8 @@
                   <td>900 kr</td>
                 </tr>
                 <tr>
-                  <td> </td>
-                  <td class="text-white">6000 kr</td>
+                  <td>Mälardalen</td>
+                  <td>Varierar</td>
                 </tr>
                 <tr>
                   <td></td>
