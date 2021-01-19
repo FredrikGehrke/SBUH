@@ -92,32 +92,46 @@
 
       <div class="row">
         <div class="p-2 col-12 col-md-6">
+          <p class="h5 font-weight-bold theme-color"><span class="text-dark">Maskin:</span> Bobcat E19</p>
           <table>
               <th class="title"><i class="fas fa-clock theme-color"></i> Tid</th>
               <th class="title">Pris</th>
               <tbody>
                 <tr>
-                  <td>1 Dygn <span class="theme-color">Bobcat E16</span></td>
+                  <td>1 Dygn</td>
                   <td>1000 kr</td>
                 </tr>
                 <tr>
-                  <td>1 Dygn <span class="theme-color">Terex TC29</span></td>
-                  <td>1400 kr</td>
-                </tr>
-                <tr>
-                  <td>Fredag eftermiddag - Söndag kväll <span class="theme-color">Bobcat E16</span></td>
+                  <td>Fredag eftermiddag - Söndag kväll</td>
                   <td>2000 kr</td>
                 </tr>
                 <tr>
-                  <td>Fredag eftermiddag - Söndag kväll <span class="theme-color">Terex TC29</span></td>
-                  <td>2800 kr</td>
-                </tr>
-                <tr>
-                  <td>1 Vecka (Hyr 7 dygn till priset av 6 dygn) <span class="theme-color">Bobcat E16</span></td>
+                  <td>1 Vecka (Hyr 7 dygn till priset av 6 dygn)</td>
                   <td>6000 kr</td>
                 </tr>
                 <tr>
-                  <td>1 Vecka (Hyr 7 dygn till priset av 6 dygn) <span class="theme-color">Terex TC29</span></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+          </table>
+        </div>
+        <div class="p-2 col-12 col-md-6">
+          <p class="h5 font-weight-bold theme-color"><span class="text-dark">Maskin:</span> Terex TC29</p>
+          <table>
+              <th class="title"><i class="fas fa-clock theme-color"></i> Tid</th>
+              <th class="title">Pris</th>
+              <tbody>
+                <tr>
+                  <td>1 Dygn</td>
+                  <td>1400 kr</td>
+                </tr>
+                <tr>
+                  <td>Fredag eftermiddag - Söndag kväll</td>
+                  <td>2800 kr</td>
+                </tr>
+                <tr>
+                  <td>1 Vecka (Hyr 7 dygn till priset av 6 dygn)</td>
                   <td>8400 kr</td>
                 </tr>
                 <tr>
@@ -127,7 +141,7 @@
               </tbody>
           </table>
         </div>
-        <!-- Terex 1400kr,  -->
+
         <!-- LEVERANS -->
         <div class="p-2 col-12 col-md-6">
           <table>
@@ -151,6 +165,13 @@
                   <td></td>
                 </tr>
               </tbody>
+          </table>
+        </div>
+        <div class="p-2 col-12 col-md-6">
+          <th class="title"><i class="fas fa-hard-hat theme-color"></i> Hyr arbetare</th>
+          <table class="ml-3">
+            Det finns även möjlighet till att hyra en arbetare till att köra maskinen du hyr. <br> Erbjuder även att köra lastbil eller liknande jobb då arbetare har CE-körkort.
+            <p class="mt-2">Priset för detta varierar, <a href="#Boka"><span class="theme-color">kontakta oss!</span></a></p>
           </table>
         </div>
       </div>
@@ -200,6 +221,7 @@ h1 {
 
 table {
   width:100%;
+  font-size: 15px;
 }
 
 tr {
@@ -216,6 +238,7 @@ th {
 
 th,td {
   padding:1em;
+  font-size: 15px;
 }
 
 /* .jumbotron {
