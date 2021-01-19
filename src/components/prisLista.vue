@@ -141,14 +141,21 @@
                   <td>900 kr</td>
                 </tr>
                 <tr>
-                  <td> </td>
-                  <td class="text-white">6000 kr</td>
+                  <td>Mälardalen</td>
+                  <td>Varierar</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td></td>
                 </tr>
               </tbody>
+          </table>
+        </div>
+        <div class="p-2 col-12 col-md-6">
+          <th class="title"><i class="fas fa-hard-hat theme-color"></i> Hyr arbetare</th>
+          <table class="ml-3">
+            Det finns även möjlighet till att hyra en arbetare till att köra maskinen du hyr. <br> Erbjuder även att köra lastbil eller liknande jobb då arbetare har CE-körkort.
+            <p class="mt-2">Priset för detta varierar, <a href="#Boka"><span class="theme-color">kontakta oss!</span></a></p>
           </table>
         </div>
       </div>
@@ -210,10 +217,12 @@ tr {
 
 th {
   text-align:left;
+  font-size: 15px;
 }
 
 th,td {
   padding:1em;
+  font-size: 15px;
 }
 
 /* .jumbotron {
