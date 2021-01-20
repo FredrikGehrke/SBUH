@@ -42,19 +42,18 @@ export default {
 }
 
 .btn-circle.btn-md { 
-    width: 50px; 
-    height: 50px; 
-    padding: 14px 10px; 
-    border-radius: 25px; 
-    font-size: 10px; 
-    text-align: center; 
+  width: 50px; 
+  height: 50px; 
+  padding: 14px 10px; 
+  border-radius: 25px; 
+  font-size: 10px; 
+  text-align: center; 
 } 
 
 .navbar-brand {
   font-weight: 800;
   font-size: 26px;
   font-family: 'Roboto Slab', serif;
-  /* color: var(--theme-color) */
 }.navbar-brand:hover {
   color: var(--theme-color) !important;
 }
@@ -79,10 +78,7 @@ export default {
 }
 
 .navbar {
-  /* background: linear-gradient(to bottom, rgb(209, 209, 209), rgb(143, 143, 143)); */
   box-shadow: 0px 5px 10px 10px rgba(0, 0, 0, 0.219);  
 }
-
-
 
 </style>

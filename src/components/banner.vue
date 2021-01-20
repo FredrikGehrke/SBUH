@@ -5,12 +5,12 @@
             <section class="text-center">
                 <div class="col-md-12 p-0">
                     <div class="card">
-                        <div class="text-white text-center align-items-center py-5 px-4 px-md-5 my-margin-top">
+                        <div class="text-white text-center align-items-center px-4 px-md-5 my-margin-top">
                             <div>
                                 <h1 class="py-1 font-weight-bold animated fadeIn" style="animation-delay: 700ms;">
                                     <strong class="SBUH">Sollentuna Bygguthyrning</strong>
                                 </h1>
-                                <p id="slogan" class="pb-2 animated fadeIn" style="animation-delay: 800ms;">
+                                <p id="slogan" class="animated fadeIn" style="animation-delay: 800ms;">
                                   Vi erbjuder smidiga grävare där du inte behöver oroa dig för att tomten ska bli förstörd. 
                                   <br> Finns även möjlighet till att hyra förare!
                                 </p>
@@ -36,7 +36,7 @@
   letter-spacing: 1.5px;
   margin: 10px;
   color: white;
-  padding: 10px 30px
+  padding: 15px 35px
 }
 
 .btn:hover {
@@ -44,37 +44,42 @@
   color: white;
 }
 
+.SBUH {
+  font-size: 35px;
+}
+
 #slogan {
-  font-size: 24px;
+  font-size: 22px;
+}
+
+.bg-img {
+  background-image: url(../assets/bannerMobile.jpg);
+  background-size: cover;
+}
+
+@media (min-width: 768px) {  
+  .SBUH {
+    font-size: 50px;
+  }
+  #slogan {
+    font-size: 28px;
+  }
+  .bg-img {
+    background-image: url(../assets/banner.jpg);
+  }
 }
 
 .my-margin-top {
-  margin-top: 8%;
+  margin-top: 13%;
 }
 
 .card {
   background-color: transparent;
-  padding-bottom: 9%;
+  padding-bottom: 15%;
 }
 
 .my-overlay {
-  /* background: rgba(0, 0, 0, 0.87); */
   background: rgba(0, 0, 0, 0.781);
 }
-
-.bg-img {
-  background-image: url(../assets/excavator.jpg);
-  background-size: cover;
-}
-
-
-@media (max-width: 600px) { 
-  .SBUH {
-    font-size: 35px !important;
-  }
-}
-
-
-
 
 </style>

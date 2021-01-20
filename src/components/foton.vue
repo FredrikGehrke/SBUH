@@ -13,48 +13,42 @@
       <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
       <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
       <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="../assets/E16.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Bobcat  E16</h5>
-          <!-- <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> -->
         </div>
       </div>
       <div class="carousel-item">
         <img src="../assets/TC29.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Terex TC29</h5>
-          <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
         </div>
       </div>
       <div class="carousel-item">
         <img src="../assets/CormidiDumper.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Dumper</h5>
-          <!-- <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> -->
         </div>
       </div>
       <div class="carousel-item">
         <img src="../assets/TC29.2.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Terex TC29</h5>
-          <!-- <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> -->
         </div>
       </div>
       <div class="carousel-item">
         <img src="../assets/garage.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <!-- <h5>abelco xc15</h5> -->
-          <!-- <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> -->
         </div>
       </div>
       <div class="carousel-item">
         <img src="../assets/maskinslap.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <!-- <h5>abelco xc15</h5> -->
-          <!-- <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> -->
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../assets/TB23R.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
         </div>
       </div>
     </div>

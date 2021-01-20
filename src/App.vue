@@ -8,7 +8,6 @@
     <foton />
     <kunder />
     <myFooter />
-  
   </div>
 </template>
 
@@ -97,23 +96,22 @@ h1, h2, h3, h4 , h5 {
 }
 
 ::-webkit-scrollbar {
-    width: 8px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #1B242F; 
-    box-shadow: inset 0 0 6px rgb(7, 6, 6); 
+  background: #1B242F; 
+  box-shadow: inset 0 0 6px rgb(7, 6, 6); 
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--theme-color); 
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
+  background: var(--theme-color); 
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
 }
 
 ::-webkit-scrollbar-thumb:hover{
-    background: #ff6701; 
+  background: #ff6701; 
 }
-
 
 </style>

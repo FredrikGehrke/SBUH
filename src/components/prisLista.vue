@@ -1,13 +1,13 @@
 <template>
 <div class="lighter-bg pb-5 pt-3" id="maskiner&prislista">
   <div class="dark-bg mb-5">
-    <div class="pt-5 pb-3">
+    <div class="pt-5 pb-4">
         <h5 class="text-center text-white h1 font-weight-bold">Maskiner</h5>
     </div>
     <div class="container">
       <div class="row mt-5 pt-4">
         <!-- CARD START -->
-        <div class="col-md-4 pb-5 wow fadeInLeft" data-wow-duration="2s">
+        <div class="col-md-6 pb-5 wow fadeInLeft" data-wow-duration="2s">
           <div class="card mb-5">
             <div class="card-body card-body-cascade text-left bg-cards">
               <div class="view view-cascade overlay z-depth-2">
@@ -16,7 +16,7 @@
               <div class="text-body">
                 <h3 class="mb-3 font-weight-bold mt-3 theme-color">Terex TC29</h3>             
                 <p class="card-text text-white">Mycket starkare och längre räckvidd med arm än Bobcat E16. <br> <br>
-                  <br> <br>
+                  <br> 
                   Totalvikt: 2850kg
                   <br>
                   Arm räckvidd 4,81m
@@ -31,7 +31,7 @@
         </div>
         <!-- CARD END -->
         <!-- CARD START -->
-        <div class="col-md-4 pb-5 wow fadeInUp" data-wow-duration="2s">
+        <div class="col-md-6 pb-5 wow fadeInRight" data-wow-duration="2s">
           <div class="card mb-5">
             <div class="card-body card-body-cascade text-left bg-cards">
               <div class="view view-cascade overlay z-depth-2">
@@ -39,8 +39,8 @@
               </div>
               <div class="text-body">
                 <h3 class="mb-3 font-weight-bold mt-3 theme-color">Bobcat E16</h3>             
-                <p class="card-text text-white">Lite mindre och smidigare än Terex TC29. Lättare att ta sig in i trånga områden. <br>
-                  <br> <br>
+                <p class="card-text text-white">Lite mindre och smidigare än Terex TC29. Lättare att ta sig in i trånga områden. <br> <br class="d-none d-lg-block">
+                  <br> 
                   Totalvikt: 1600kg
                   <br>
                   Arm räckvidd 4,15m
@@ -55,7 +55,7 @@
         </div>
         <!-- CARD END -->
         <!-- CARD START -->
-        <div class="col-md-4 pb-5 wow fadeInRight" data-wow-duration="2s">
+        <div class="col-md-6 pb-5 wow fadeInLeft" data-wow-duration="2s">
           <div class="card mb-5">
             <div class="card-body card-body-cascade text-left bg-cards">
               <div class="view view-cascade overlay z-depth-2">
@@ -69,6 +69,30 @@
                   <br>
                   Enkla kontroller att lära sig
                   <br> 
+                </p>
+              </div>
+              <a href="#Boka" class="text-white bokaBtn btn-block text-uppercase">Till bokningen
+                <i class="fas fa-arrow-down ml-1"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- CARD END -->
+        <!-- CARD START -->
+        <div class="col-md-6 pb-5 wow fadeInRight" data-wow-duration="2s">
+          <div class="card mb-5">
+            <div class="card-body card-body-cascade text-left bg-cards">
+              <div class="view view-cascade overlay z-depth-2">
+                <img class="card-img-top image-size" src="../assets/TB23R.jpg" alt="Dumper">
+              </div>
+              <div class="text-body">
+                <h3 class="mb-3 font-weight-bold mt-3 theme-color">TB23R</h3>             
+                <p class="card-text text-white">Lite mindre Terex TC29 men större än Bobcat E16. Bra om du vill ha en mittemellan modell för ditt projekt. <br class="d-none d-lg-block">
+                  <br> <br>
+                  Totalvikt: 2460kg
+                  <br>
+                  Arm räckvidd 3,80m
+                  <br>
                 </p>
               </div>
               <a href="#Boka" class="text-white bokaBtn btn-block text-uppercase">Till bokningen
@@ -102,19 +126,19 @@
                   <td>1 Dygn</td>
                   <td></td>
                   <td>1000 kr</td>
-                  <td>1400 kr</td>
+                  <td class="custom-padding">1400 kr</td>
                 </tr>
                 <tr>
                   <td>Fredag eftermiddag - Söndag kväll</td>
                   <td></td>
                   <td>2000 kr</td>
-                  <td>2800 kr</td>
+                  <td class="custom-padding">2800 kr</td>
                 </tr>
                 <tr>
                   <td>1 Vecka (Hyr 7 dygn till priset av 6 dygn)</td>
                   <td></td>
                   <td>6000 kr</td>
-                  <td>8400 kr</td>
+                  <td class="custom-padding">8400 kr</td>
                 </tr>
                 <tr>
                   <td></td>
@@ -153,7 +177,7 @@
         </div>
         <div class="p-2 col-12 col-md-6">
           <th class="title"><i class="fas fa-hard-hat theme-color"></i> Hyr arbetare</th>
-          <table class="ml-3">
+          <table class="">
             Det finns även möjlighet till att hyra en arbetare till att köra maskinen du hyr. <br> Erbjuder även att köra lastbil eller liknande jobb. Priset för detta varierar, <a href="#Boka"><span class="theme-color">kontakta oss!</span></a>
             <p class="mt-2">
               <span class="theme-color font-weight-bold">Terex TC29</span> 650kr/h 
@@ -188,15 +212,6 @@ export default {
   color: white;
 }
 
-/* .btn {
-  background: linear-gradient(to right, rgb(243, 141, 7), rgb(247, 91, 1));
-  font-weight: 600;
-  border-radius: 10px;
-  font-size: 14px;
-  letter-spacing: 1.5px;
-  margin: 0;
-} */
-
 h1 {
   font-weight: bold;
 }
@@ -215,10 +230,6 @@ tr {
   border-top:1px solid black
 }
 
-/* thead tr {
-  border-width:2px;
-} */
-
 th {
   text-align:left;
   font-size: 15px;
@@ -229,16 +240,29 @@ th,td {
   font-size: 15px;
 }
 
-/* .jumbotron {
-  background-color: rgb(19, 19, 19);
-  color: white;
-} */
-
-
+.custom-padding {
+  padding: 0;
+  padding-left: 9px;
+}
 
 .image-size {
   height: 250px;
-  /* border-bottom: 4px solid var(--theme-color); */
+}
+
+@media (min-width: 768px) {  
+  .custom-padding {
+    padding: 15px;
+  }
+}
+@media (min-width: 992px) {  
+  .image-size {
+    height: 300px;
+  }
+}
+@media (min-width: 1200px) {  
+  .image-size {
+    height: 350px;
+  }
 }
 
 .card {
@@ -268,11 +292,8 @@ th,td {
 }
 
 .bg-cards {
-  /* background: linear-gradient(to top, rgb(32, 32, 32), rgb(19, 19, 19)); */
-  /* background: linear-gradient(to top, rgb(32, 32, 32), rgb(27, 27, 27)); */
-    background: linear-gradient(to top, rgb(32, 32, 32), rgb(27, 27, 27));
+  background: linear-gradient(to top, rgb(32, 32, 32), rgb(27, 27, 27));
   box-shadow: 0px 5px 20px 10px rgba(0, 0, 0, 0.219);  
 }
-
 
 </style>

@@ -187,8 +187,8 @@ hr {
 }
 
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 } a:hover {
   color: var(--theme-color)
 }

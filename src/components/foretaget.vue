@@ -18,10 +18,13 @@ export default {
 
 
 <style scoped>
+
 h1 {
   font-weight: bold;
 }
+
 .sizeimg {
   width: 400px;
 }
+
 </style>
