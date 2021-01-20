@@ -225,7 +225,7 @@ th {
 }
 
 th,td {
-  padding:1em;
+  padding:10px;
   font-size: 15px;
 }
 
