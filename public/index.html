@@ -23,6 +23,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Patua+One&family=Roboto+Slab&display=swap" rel="stylesheet">
 
+    
+    <!-- Custom color chatra -->
+    <script>
+      window.ChatraSetup = {
+          colors: {
+              buttonText: '#f0f0f0', /* chat button text color */
+              buttonBg: '#f38d07'    /* chat button background color */
+          },
+          disabledOnMobile: true,
+          deferredLoading: true
+      };
+      </script>
+      <!-- Chatra Block mobile device -->
+     
+      <!-- Chat Chatra -->
+    <script>
+      (function(d, w, c) {
+          w.ChatraID = 'uvJiFKP5HTbdfC4RT';
+          var s = d.createElement('script');
+          w[c] = w[c] || function() {
+              (w[c].q = w[c].q || []).push(arguments);
+          };
+          s.async = true;
+          s.src = 'https://call.chatra.io/chatra.js';
+          if (d.head) d.head.appendChild(s);
+      })(document, window, 'Chatra');
+  </script>
     <script src="https://kit.fontawesome.com/f085e9c21b.js"></script>
 
     <title><%= htmlWebpackPlugin.options.title %></title>
@@ -33,7 +60,7 @@
     </noscript>
     <div id="app"></div>
 
-    <script src="https://apps.elfsight.com/p/platform.js" defer></script> <!-- Facebook Chat -->
+    
 
     <!-- Firebase Start -->
     <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>

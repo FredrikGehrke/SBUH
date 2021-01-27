@@ -1,6 +1,5 @@
 <template>
     <div class="bg-img">
-    <div class="elfsight-app-10f96e3d-63af-4ae4-bab5-4c10d2a875fb"></div>
         <div class="my-overlay">
             <section class="text-center">
                 <div class="col-md-12 p-0">
