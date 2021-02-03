@@ -2,7 +2,8 @@
   <nav class="navbar navbar-expand-lg navbar-dark  white">
     <div class="container">
 
-      <a class="navbar-brand text-dark" href="www.sbuh.se">SBUH</a>
+      <a class="navbar-brand text-dark" href="sbuh.se">SBUH</a>
+      
 
       <button class="navbar-toggler theme-bg" type="button" data-toggle="collapse" data-target="#navbarText"
         aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,6 +37,9 @@ export default {
 
 
 <style scoped>
+.border-bottom {
+  color: blue !important;
+}
 
 .mail-icon {
   margin-left: 1px;
