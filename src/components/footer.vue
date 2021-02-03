@@ -2,7 +2,7 @@
     <div>
         <div class="main-footer" id="kontakt">
             <footer class="page-footer font-small footer-bg pt-4">
-                <div class="container-fluid text-center text-md-left container">
+                <div class="container-fluid text-center text-md-left container py-2">
                     <div class="row">
                         <div class="col-md-5 mt-md-0 mt-3">
                             <p class="SBUH theme-color h5 font-weight-bold">Sollentuna Bygguthyrning</p>

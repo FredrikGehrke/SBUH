@@ -18,7 +18,10 @@
             <a class="nav-link text-dark" href="#foton">Foton</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark" href="#maskiner&prislista">Maskiner & Prislista</a>
+            <a class="nav-link text-dark" href="#maskiner">Maskiner</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#prislista">Prislista</a>
           </li>
         </ul>
         <a href="mailto:leif@sbuh.se" class="btn theme-bg btn-circle btn-md"><i class="fas fa-envelope fa-2x text-white mail-icon"></i></a> 

@@ -1,5 +1,5 @@
 <template>
-<div class="lighter-bg pb-5 pt-3" id="maskiner&prislista">
+<div class="lighter-bg pb-5 pt-3" id="maskiner">
   <div class="dark-bg mb-5">
     <div class="pt-5 pb-4">
         <h5 class="text-center text-white h1 font-weight-bold">Maskiner</h5>
@@ -106,7 +106,7 @@
     </div>
   </div>
 
-  <div class="jumbotron jumbotron-fluid my-2" id="Priser">
+  <div class="jumbotron jumbotron-fluid my-2" id="prislista">
     <div class="container">
       <div class="text-center">
         <p class="h1 font-weight-bold">Prislista</p>
