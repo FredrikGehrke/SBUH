@@ -36,6 +36,9 @@ export default {
 
 
 <style scoped>
+.border-bottom {
+  color: blue !important;
+}
 
 .mail-icon {
   margin-left: 1px;
