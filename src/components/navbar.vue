@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark  white">
     <div class="container">
 
-      <a class="navbar-brand text-dark" href="http://sbuh.se/">SBUH</a>
+      <a class="navbar-brand text-dark" href="http://sbuh.se/">SBUH <strong class="my-dot"></strong></a>
 
       <button class="navbar-toggler theme-bg" type="button" data-toggle="collapse" data-target="#navbarText"
         aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,6 +39,16 @@ export default {
 
 
 <style scoped>
+.my-dot {
+  margin-left: -0.5rem;
+  margin-bottom: -0.05rem;
+  height: 7px;
+  width: 7px;
+  background-color: var(--theme-color);
+  border-radius: 50%;
+  display: inline-block;
+}
+
 .border-bottom {
   color: blue !important;
 }
