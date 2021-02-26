@@ -14,7 +14,7 @@
                                   <br> Finns även möjlighet till att hyra förare!
                                 </p>
                                 <a href="#Boka" class="btn animated fadeInUp" style="animation-delay: 900ms;">BOKA <i class="fas fa-pen ml-1"></i></a>
-                                <a href="#Priser" class="btn animated fadeInUp" style="animation-delay: 900ms;">Priser <i class="fas fa-tag ml-1"></i></a>
+                                <a href="#prislista" class="btn animated fadeInUp" style="animation-delay: 900ms;">Priser <i class="fas fa-tag ml-1"></i></a>
                             </div>
                         </div>
                     </div>
